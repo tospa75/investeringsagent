@@ -1,0 +1,472 @@
+{
+  "generatedAt": "2026-10-11T22:10:08.762Z",
+  "databaseValidation": "COMPLETE",
+  "scenarios": {
+    "balanced": {
+      "status": "IN_BALANCE",
+      "confidence": "HIGH",
+      "driftScore": 0,
+      "funds": [
+        {
+          "fundId": "A",
+          "name": "Fund A",
+          "targetWeight": 0.5,
+          "actualWeight": 0.5,
+          "deviationPercentagePoints": 0,
+          "relativeDeviation": 0,
+          "status": "WITHIN_RANGE"
+        },
+        {
+          "fundId": "B",
+          "name": "Fund B",
+          "targetWeight": 0.5,
+          "actualWeight": 0.5,
+          "deviationPercentagePoints": 0,
+          "relativeDeviation": 0,
+          "status": "WITHIN_RANGE"
+        }
+      ],
+      "actions": [],
+      "monitoringEvents": [],
+      "newCashAllocated": 0,
+      "totalTurnover": 0,
+      "estimatedCost": 0,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "validation": "task-13-v1"
+      },
+      "warnings": [],
+      "deterministicKey": "159953d10be70187cdef3eeec14b99aefaf8fb6a4b5f479c9a1c49dbb66695f1"
+    },
+    "overweightSaleRequired": {
+      "status": "REBALANCE_REQUIRED",
+      "confidence": "HIGH",
+      "driftScore": 0.2,
+      "funds": [
+        {
+          "fundId": "A",
+          "name": "Fund A",
+          "targetWeight": 0.5,
+          "actualWeight": 0.7,
+          "deviationPercentagePoints": 20,
+          "relativeDeviation": 0.4,
+          "status": "OVERWEIGHT"
+        },
+        {
+          "fundId": "B",
+          "name": "Fund B",
+          "targetWeight": 0.5,
+          "actualWeight": 0.3,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.4,
+          "status": "UNDERWEIGHT"
+        }
+      ],
+      "actions": [
+        {
+          "fundId": "A",
+          "actionType": "SELL",
+          "amount": 20000,
+          "estimatedUnits": 200,
+          "reason": "Actual weight exceeds target/no-trade range; sale funds underweights while minimizing turnover",
+          "priority": 1,
+          "confidence": "HIGH"
+        },
+        {
+          "fundId": "B",
+          "actionType": "BUY",
+          "amount": 20000,
+          "estimatedUnits": 200,
+          "reason": "Fund remains underweight after new cash; funded by proposed sales",
+          "priority": 2,
+          "confidence": "HIGH"
+        }
+      ],
+      "monitoringEvents": [],
+      "newCashAllocated": 0,
+      "totalTurnover": 40000,
+      "estimatedCost": 40,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "validation": "task-13-v1"
+      },
+      "warnings": [],
+      "deterministicKey": "d861054d5a6e0d5d02d0fff26119cb6eb884f547c68a49e5eb5be5eb2982c0b3"
+    },
+    "newCashFirst": {
+      "status": "REBALANCE_REQUIRED",
+      "confidence": "HIGH",
+      "driftScore": 0.2,
+      "funds": [
+        {
+          "fundId": "A",
+          "name": "Fund A",
+          "targetWeight": 0.5,
+          "actualWeight": 0.7,
+          "deviationPercentagePoints": 20,
+          "relativeDeviation": 0.4,
+          "status": "OVERWEIGHT"
+        },
+        {
+          "fundId": "B",
+          "name": "Fund B",
+          "targetWeight": 0.5,
+          "actualWeight": 0.3,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.4,
+          "status": "UNDERWEIGHT"
+        }
+      ],
+      "actions": [
+        {
+          "fundId": "B",
+          "actionType": "BUY",
+          "amount": 40000,
+          "estimatedUnits": 400,
+          "reason": "Target 50.00%; new cash reduces the largest underweight without a sale",
+          "priority": 1,
+          "confidence": "HIGH"
+        }
+      ],
+      "monitoringEvents": [],
+      "newCashAllocated": 40000,
+      "totalTurnover": 40000,
+      "estimatedCost": 40,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "validation": "task-13-v1"
+      },
+      "warnings": [],
+      "deterministicKey": "af5d38e9fbabd54d88713cbaf30780e25e9ec98c30e54a6a29e4b7801624ed38"
+    },
+    "avoidRealization": {
+      "status": "REBALANCE_REQUIRED",
+      "confidence": "HIGH",
+      "driftScore": 0.2,
+      "funds": [
+        {
+          "fundId": "A",
+          "name": "Fund A",
+          "targetWeight": 0.5,
+          "actualWeight": 0.7,
+          "deviationPercentagePoints": 20,
+          "relativeDeviation": 0.4,
+          "status": "OVERWEIGHT"
+        },
+        {
+          "fundId": "B",
+          "name": "Fund B",
+          "targetWeight": 0.5,
+          "actualWeight": 0.3,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.4,
+          "status": "UNDERWEIGHT"
+        }
+      ],
+      "actions": [],
+      "monitoringEvents": [],
+      "newCashAllocated": 0,
+      "totalTurnover": 0,
+      "estimatedCost": 0,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "validation": "task-13-v1"
+      },
+      "warnings": [
+        "Target cannot be reached without sales; sales suppressed by avoid_realization"
+      ],
+      "deterministicKey": "511067bbe7743e434a6f6b97c951dafbf378db734cc5a9bf77de0009c604ebf8"
+    },
+    "staleNav": {
+      "status": "REBALANCE_REQUIRED",
+      "confidence": "MEDIUM",
+      "driftScore": 0.2,
+      "funds": [
+        {
+          "fundId": "A",
+          "name": "Fund A",
+          "targetWeight": 0.5,
+          "actualWeight": 0.7,
+          "deviationPercentagePoints": 20,
+          "relativeDeviation": 0.4,
+          "status": "OVERWEIGHT"
+        },
+        {
+          "fundId": "B",
+          "name": "Fund B",
+          "targetWeight": 0.5,
+          "actualWeight": 0.3,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.4,
+          "status": "UNDERWEIGHT"
+        }
+      ],
+      "actions": [
+        {
+          "fundId": "A",
+          "actionType": "SELL",
+          "amount": 20000,
+          "estimatedUnits": 200,
+          "reason": "Actual weight exceeds target/no-trade range; sale funds underweights while minimizing turnover",
+          "priority": 1,
+          "confidence": "MEDIUM"
+        },
+        {
+          "fundId": "B",
+          "actionType": "BUY",
+          "amount": 20000,
+          "estimatedUnits": 200,
+          "reason": "Fund remains underweight after new cash; funded by proposed sales",
+          "priority": 2,
+          "confidence": "MEDIUM"
+        }
+      ],
+      "monitoringEvents": [],
+      "newCashAllocated": 0,
+      "totalTurnover": 40000,
+      "estimatedCost": 40,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "validation": "task-13-v1"
+      },
+      "warnings": [
+        "Trade amounts have medium confidence because NAV or exposure data is incomplete or stale"
+      ],
+      "deterministicKey": "bf9b3549ba6db79e7343c2df07953bb90e39e0fa326557517efc4ec9eead13b0"
+    },
+    "hardConstraint": {
+      "status": "REBALANCE_REQUIRED",
+      "confidence": "HIGH",
+      "driftScore": 0.2,
+      "funds": [
+        {
+          "fundId": "A",
+          "name": "Fund A",
+          "targetWeight": 0.5,
+          "actualWeight": 0.7,
+          "deviationPercentagePoints": 20,
+          "relativeDeviation": 0.4,
+          "status": "OVERWEIGHT"
+        },
+        {
+          "fundId": "B",
+          "name": "Fund B",
+          "targetWeight": 0.5,
+          "actualWeight": 0.3,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.4,
+          "status": "UNDERWEIGHT"
+        }
+      ],
+      "actions": [],
+      "monitoringEvents": [
+        {
+          "eventType": "REGION_MAX_BREACH",
+          "severity": "CRITICAL",
+          "fundId": null,
+          "message": "NORTH_AMERICA exposure 70.00% exceeds 50.00%",
+          "dataVersion": {
+            "validation": "task-13-v1"
+          }
+        }
+      ],
+      "newCashAllocated": 0,
+      "totalTurnover": 0,
+      "estimatedCost": 0,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "validation": "task-13-v1"
+      },
+      "warnings": [
+        "Trade suggestions withheld until critical hard-constraint or fund-validity breaches are reviewed"
+      ],
+      "deterministicKey": "25e292c14f05c9cd5ec38351ca9baf5ff0ceea34fbb077fbf996bfc00ef833aa"
+    },
+    "invalidFund": {
+      "status": "REBALANCE_REQUIRED",
+      "confidence": "HIGH",
+      "driftScore": 0.2,
+      "funds": [
+        {
+          "fundId": "A",
+          "name": "Fund A",
+          "targetWeight": 0.5,
+          "actualWeight": 0.7,
+          "deviationPercentagePoints": 20,
+          "relativeDeviation": 0.4,
+          "status": "OVERWEIGHT"
+        },
+        {
+          "fundId": "B",
+          "name": "Fund B",
+          "targetWeight": 0.5,
+          "actualWeight": 0.3,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.4,
+          "status": "UNDERWEIGHT"
+        }
+      ],
+      "actions": [],
+      "monitoringEvents": [
+        {
+          "eventType": "FUND_REVIEW_REQUIRED",
+          "severity": "CRITICAL",
+          "fundId": "A",
+          "message": "Fund A is unavailable or has invalid documentation; manual review required",
+          "dataVersion": {
+            "validation": "task-13-v1"
+          }
+        }
+      ],
+      "newCashAllocated": 0,
+      "totalTurnover": 0,
+      "estimatedCost": 0,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "validation": "task-13-v1"
+      },
+      "warnings": [
+        "Trade suggestions withheld until critical hard-constraint or fund-validity breaches are reviewed"
+      ],
+      "deterministicKey": "0676953ed58e0b4646ae7571ee7e0d658c124b0c08a917b0363b9dac809b2713"
+    }
+  },
+  "liveValidation": {
+    "temporaryUser": true,
+    "cleanedUp": true,
+    "portfolioId": "3b92d371-d602-4d63-b774-869404d25cb3",
+    "proposalId": "625355b1-b491-468e-bcf1-8d8b64909926",
+    "targetCount": 4,
+    "peakDatabaseRows": {
+      "portfolio_monitoring_events": 1,
+      "rebalance_plans": 1,
+      "rebalance_plan_actions": 5
+    },
+    "firstPlanInserted": 1,
+    "secondPlanInserted": 0,
+    "firstEventsInserted": 1,
+    "secondEventsInserted": 0,
+    "plan": {
+      "status": "REBALANCE_REQUIRED",
+      "confidence": "HIGH",
+      "driftScore": 0.5,
+      "funds": [
+        {
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "name": "Storebrand Indeks - Nye Markeder N",
+          "targetWeight": 0.2,
+          "actualWeight": 0.7,
+          "deviationPercentagePoints": 50,
+          "relativeDeviation": 2.5,
+          "status": "OVERWEIGHT"
+        },
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "name": "Storebrand Global Indeks C",
+          "targetWeight": 0.3,
+          "actualWeight": 0.1,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.6666666667,
+          "status": "UNDERWEIGHT"
+        },
+        {
+          "fundId": "3ac9a981-a23b-43cd-9b31-f478c77741ec",
+          "name": "KLP AksjeNorge Indeks N",
+          "targetWeight": 0.2,
+          "actualWeight": 0.1,
+          "deviationPercentagePoints": -10,
+          "relativeDeviation": -0.5,
+          "status": "UNDERWEIGHT"
+        },
+        {
+          "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+          "name": "Kron Indeks Global",
+          "targetWeight": 0.3,
+          "actualWeight": 0.1,
+          "deviationPercentagePoints": -20,
+          "relativeDeviation": -0.6666666667,
+          "status": "UNDERWEIGHT"
+        }
+      ],
+      "actions": [
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "actionType": "BUY",
+          "amount": 10000,
+          "estimatedUnits": 100,
+          "reason": "Target 30.00%; new cash reduces the largest underweight without a sale",
+          "priority": 1,
+          "confidence": "HIGH"
+        },
+        {
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "actionType": "SELL",
+          "amount": 48000,
+          "estimatedUnits": 480,
+          "reason": "Actual weight exceeds target/no-trade range; sale funds underweights while minimizing turnover",
+          "priority": 2,
+          "confidence": "HIGH"
+        },
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "actionType": "BUY",
+          "amount": 13000,
+          "estimatedUnits": 130,
+          "reason": "Fund remains underweight after new cash; funded by proposed sales",
+          "priority": 3,
+          "confidence": "HIGH"
+        },
+        {
+          "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+          "actionType": "BUY",
+          "amount": 23000,
+          "estimatedUnits": 230,
+          "reason": "Fund remains underweight after new cash; funded by proposed sales",
+          "priority": 4,
+          "confidence": "HIGH"
+        },
+        {
+          "fundId": "3ac9a981-a23b-43cd-9b31-f478c77741ec",
+          "actionType": "BUY",
+          "amount": 12000,
+          "estimatedUnits": 120,
+          "reason": "Fund remains underweight after new cash; funded by proposed sales",
+          "priority": 5,
+          "confidence": "HIGH"
+        }
+      ],
+      "monitoringEvents": [
+        {
+          "eventType": "FUND_CONCENTRATION",
+          "severity": "WARNING",
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "message": "Storebrand Indeks - Nye Markeder N exceeds maximum fund weight",
+          "dataVersion": {
+            "snapshot": "task-13-live-v1",
+            "proposal": {
+              "NO0010817919": "{\"kid\":\"b3d25d386d7f4884270def1df96b45f96f7eeb2b23c381cde2fdbbecac692721\",\"exposure\":\"3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0\",\"performance\":\"e88fb5fce113b3ece61630d83463fb162e1e672865c4d56dde92a9596cdd3ff5\",\"managementStyle\":\"b9abf17173c1c0e7039c26ee4c40ef7800e56c9aa8415016a8c33c8a586eb31d\",\"preferenceVersion\":\"1\"}",
+              "NO0011101545": "{\"kid\":\"b4c42ba8e4531db6f14bf3785a6b7eb1bc1cd15decbcc53ed9edd418cea805c1\",\"exposure\":\"fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517\",\"performance\":\"bcc42e448a59e51f63efba92d184b4dbb500a90c61a8e5f24329fa4b4e876997\",\"managementStyle\":\"f283c5f614830cafe7f7f36bea54003779a80f4dcfec8114eed232dae0ed8cb1\",\"preferenceVersion\":\"1\"}",
+              "NO0012445214": "{\"kid\":\"3b8edec97028deb80294a5e1e2fb1da37bd24f6deb574bc51e2c1d9174a0f7d3\",\"exposure\":\"f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398\",\"performance\":\"41657518fa11a2908eb79a8e4625bda04706ad2b91a47c133f6fdf2cb1beff49\",\"managementStyle\":\"31f8428fe29a5841a572814c9b11e8f0e035f3c62cf7e96146a8c365f9005396\",\"preferenceVersion\":\"1\"}",
+              "NO0012882036": "{\"kid\":\"0bc600a691eb76cb56fb4143115e4eda8024343ad330390a9b4db963433ba8e4\",\"exposure\":\"37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768\",\"performance\":\"bd9a069c20f2e3a87e10eec0ff96bc74a94bc99937c4d44fc36f1e9d881cc4c4\",\"managementStyle\":\"ed92414166c10eac1d2f0b5978ad94d73d74987c287836d5d48b6f4110a08379\",\"preferenceVersion\":\"1\"}"
+            }
+          }
+        }
+      ],
+      "newCashAllocated": 10000,
+      "totalTurnover": 106000,
+      "estimatedCost": 106,
+      "targetModelVersion": "PORTFOLIO_CONSTRUCTION_MODEL_V1_3",
+      "currentDataVersion": {
+        "snapshot": "task-13-live-v1",
+        "proposal": {
+          "NO0010817919": "{\"kid\":\"b3d25d386d7f4884270def1df96b45f96f7eeb2b23c381cde2fdbbecac692721\",\"exposure\":\"3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0\",\"performance\":\"e88fb5fce113b3ece61630d83463fb162e1e672865c4d56dde92a9596cdd3ff5\",\"managementStyle\":\"b9abf17173c1c0e7039c26ee4c40ef7800e56c9aa8415016a8c33c8a586eb31d\",\"preferenceVersion\":\"1\"}",
+          "NO0011101545": "{\"kid\":\"b4c42ba8e4531db6f14bf3785a6b7eb1bc1cd15decbcc53ed9edd418cea805c1\",\"exposure\":\"fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517\",\"performance\":\"bcc42e448a59e51f63efba92d184b4dbb500a90c61a8e5f24329fa4b4e876997\",\"managementStyle\":\"f283c5f614830cafe7f7f36bea54003779a80f4dcfec8114eed232dae0ed8cb1\",\"preferenceVersion\":\"1\"}",
+          "NO0012445214": "{\"kid\":\"3b8edec97028deb80294a5e1e2fb1da37bd24f6deb574bc51e2c1d9174a0f7d3\",\"exposure\":\"f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398\",\"performance\":\"41657518fa11a2908eb79a8e4625bda04706ad2b91a47c133f6fdf2cb1beff49\",\"managementStyle\":\"31f8428fe29a5841a572814c9b11e8f0e035f3c62cf7e96146a8c365f9005396\",\"preferenceVersion\":\"1\"}",
+          "NO0012882036": "{\"kid\":\"0bc600a691eb76cb56fb4143115e4eda8024343ad330390a9b4db963433ba8e4\",\"exposure\":\"37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768\",\"performance\":\"bd9a069c20f2e3a87e10eec0ff96bc74a94bc99937c4d44fc36f1e9d881cc4c4\",\"managementStyle\":\"ed92414166c10eac1d2f0b5978ad94d73d74987c287836d5d48b6f4110a08379\",\"preferenceVersion\":\"1\"}"
+        }
+      },
+      "warnings": [],
+      "deterministicKey": "c33eb2102447d2dd784fd924e4bc6ee5b396935b3b32c431842438a144094309"
+    }
+  }
+}

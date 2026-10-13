@@ -1,0 +1,4499 @@
+{
+  "generatedAt": "2026-10-11T19:28:23.212Z",
+  "universeSize": 18,
+  "coverage": {
+    "geography": 15,
+    "sectors": 15,
+    "holdings": 18,
+    "sourceDate": 0,
+    "assetAllocation": 18
+  },
+  "databaseRows": {
+    "exposure_datasets": 18,
+    "fund_geography": 331,
+    "fund_sectors": 149,
+    "fund_holdings": 180,
+    "fund_asset_allocations": 64
+  },
+  "missing": [
+    {
+      "isin": "NO0011101545",
+      "name": "Kron Indeks Global",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0012882036",
+      "name": "Storebrand Global Indeks C",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0010611148",
+      "name": "Storebrand Indeks - Alle Markeder A",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0012445214",
+      "name": "KLP AksjeNorge Indeks N",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0013711242",
+      "name": "Storebrand Europe Index N",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0010817919",
+      "name": "Storebrand Indeks - Nye Markeder N",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0013004622",
+      "name": "DNB Teknologi B",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0010817505",
+      "name": "Storebrand Global Multifactor N",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0010817836",
+      "name": "Storebrand Verdi N",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0012884149",
+      "name": "Storebrand Vekst B",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "LU0069449576",
+      "name": "Fidelity Funds - World Fund A-Euro",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "LU0261949381",
+      "name": "Fidelity Nordic A-Acc-SEK",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "LU0251128657",
+      "name": "Fidelity Europe Equity ESG A-Acc-EUR",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "LU0070214290",
+      "name": "JPM US Select Equity A (acc) USD",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "LU2051468812",
+      "name": "JPM Emerging Markets Sustainable Equity A (acc) - USD",
+      "geography": false,
+      "sectors": false,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "SUCCESS",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0010818008",
+      "name": "Storebrand Likviditet N",
+      "geography": true,
+      "sectors": true,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "PARTIAL",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0010818057",
+      "name": "Storebrand Kreditt N",
+      "geography": true,
+      "sectors": true,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "PARTIAL",
+      "source": "KRON"
+    },
+    {
+      "isin": "NO0010588031",
+      "name": "Storebrand Global Kreditt IG B",
+      "geography": true,
+      "sectors": true,
+      "holdings": false,
+      "sourceDate": true,
+      "assetAllocation": false,
+      "status": "PARTIAL",
+      "source": "KRON"
+    }
+  ],
+  "results": [
+    {
+      "isin": "NO0011101545",
+      "fundName": "Kron Indeks Global",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0011101545",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0011101545",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:18.336Z",
+        "contentHash": "fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517",
+        "geography": [
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 75.79
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 15.229999999999999
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 8.63
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0.2
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0.15
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 72.43
+          },
+          {
+            "region": null,
+            "country": "Japan",
+            "weight": 6.04
+          },
+          {
+            "region": null,
+            "country": "Canada",
+            "weight": 3.36
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 3.26
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 2.48
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 2.02
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 2
+          },
+          {
+            "region": null,
+            "country": "Australia",
+            "weight": 1.46
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 1.39
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 1.02
+          },
+          {
+            "region": null,
+            "country": "Italia",
+            "weight": 0.77
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 0.75
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 0.48
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 0.44999999999999996
+          },
+          {
+            "region": null,
+            "country": "Denmark",
+            "weight": 0.36
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 0.31
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 0.29
+          },
+          {
+            "region": null,
+            "country": "Finland",
+            "weight": 0.24
+          },
+          {
+            "region": null,
+            "country": "China",
+            "weight": 0.18
+          },
+          {
+            "region": null,
+            "country": "Irland",
+            "weight": 0.15
+          },
+          {
+            "region": null,
+            "country": "Israel",
+            "weight": 0.15
+          },
+          {
+            "region": null,
+            "country": "Portugal",
+            "weight": 0.12
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 0.11
+          },
+          {
+            "region": null,
+            "country": "Brazil",
+            "weight": 0.09
+          },
+          {
+            "region": null,
+            "country": "Østerrike",
+            "weight": 0.05
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 0.02
+          },
+          {
+            "region": null,
+            "country": "Tsjekkia",
+            "weight": 0.01
+          },
+          {
+            "region": null,
+            "country": "Malaysia",
+            "weight": 0.01
+          },
+          {
+            "region": null,
+            "country": "New Zealand",
+            "weight": 0.01
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 32.76
+          },
+          {
+            "label": "Financials",
+            "weight": 15.7
+          },
+          {
+            "label": "Industrials",
+            "weight": 9.92
+          },
+          {
+            "label": "Healthcare",
+            "weight": 9.24
+          },
+          {
+            "label": "Communication Services",
+            "weight": 8.649999999999999
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 8.14
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 4.54
+          },
+          {
+            "label": "Energy",
+            "weight": 3.94
+          },
+          {
+            "label": "Materials",
+            "weight": 3.1300000000000003
+          },
+          {
+            "label": "Utilities",
+            "weight": 2.39
+          },
+          {
+            "label": "Real Estate",
+            "weight": 1.58
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "NVIDIA Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.83
+          },
+          {
+            "holdingName": "Apple Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.42
+          },
+          {
+            "holdingName": "Microsoft Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.1000000000000005
+          },
+          {
+            "holdingName": "Amazon.com Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.7199999999999998
+          },
+          {
+            "holdingName": "Alphabet Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.22
+          },
+          {
+            "holdingName": "Alphabet Inc Class C",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.82
+          },
+          {
+            "holdingName": "Broadcom Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.78
+          },
+          {
+            "holdingName": "Meta Platforms Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.77
+          },
+          {
+            "holdingName": "Micron Technology Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.34
+          },
+          {
+            "holdingName": "Tesla Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.1400000000000001
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.77000000000001
+          },
+          {
+            "label": "CASH",
+            "weight": 0.19
+          },
+          {
+            "label": "OTHER",
+            "weight": 0.04
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 28.14,
+          "largestHoldingWeight": 5.83,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.19,
+          "equityWeight": 99.77000000000001,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0012882036",
+      "fundName": "Storebrand Global Indeks C",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0012882036",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0012882036",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:18.687Z",
+        "contentHash": "37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768",
+        "geography": [
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 75.81
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 15.24
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 8.61
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0.21
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0.12
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 72.42
+          },
+          {
+            "region": null,
+            "country": "Japan",
+            "weight": 6.02
+          },
+          {
+            "region": null,
+            "country": "Canada",
+            "weight": 3.39
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 3.29
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 2.4699999999999998
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 2.04
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 2.03
+          },
+          {
+            "region": null,
+            "country": "Australia",
+            "weight": 1.46
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 1.4000000000000001
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 1.01
+          },
+          {
+            "region": null,
+            "country": "Italia",
+            "weight": 0.77
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 0.69
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 0.48
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 0.47000000000000003
+          },
+          {
+            "region": null,
+            "country": "Denmark",
+            "weight": 0.35000000000000003
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 0.31
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 0.3
+          },
+          {
+            "region": null,
+            "country": "Finland",
+            "weight": 0.22
+          },
+          {
+            "region": null,
+            "country": "China",
+            "weight": 0.16
+          },
+          {
+            "region": null,
+            "country": "Irland",
+            "weight": 0.16
+          },
+          {
+            "region": null,
+            "country": "Portugal",
+            "weight": 0.13
+          },
+          {
+            "region": null,
+            "country": "Israel",
+            "weight": 0.12
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 0.12
+          },
+          {
+            "region": null,
+            "country": "Brazil",
+            "weight": 0.09
+          },
+          {
+            "region": null,
+            "country": "Østerrike",
+            "weight": 0.05
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 0.02
+          },
+          {
+            "region": null,
+            "country": "Tsjekkia",
+            "weight": 0.01
+          },
+          {
+            "region": null,
+            "country": "Malaysia",
+            "weight": 0.01
+          },
+          {
+            "region": null,
+            "country": "New Zealand",
+            "weight": 0.01
+          },
+          {
+            "region": null,
+            "country": "Polen",
+            "weight": 0.01
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 32.67
+          },
+          {
+            "label": "Financials",
+            "weight": 15.75
+          },
+          {
+            "label": "Industrials",
+            "weight": 9.950000000000001
+          },
+          {
+            "label": "Healthcare",
+            "weight": 9.33
+          },
+          {
+            "label": "Communication Services",
+            "weight": 8.64
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 8.14
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 4.51
+          },
+          {
+            "label": "Energy",
+            "weight": 3.94
+          },
+          {
+            "label": "Materials",
+            "weight": 3.11
+          },
+          {
+            "label": "Utilities",
+            "weight": 2.39
+          },
+          {
+            "label": "Real Estate",
+            "weight": 1.5599999999999998
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "NVIDIA Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.82
+          },
+          {
+            "holdingName": "Apple Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.42
+          },
+          {
+            "holdingName": "Microsoft Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.09
+          },
+          {
+            "holdingName": "Amazon.com Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.71
+          },
+          {
+            "holdingName": "Alphabet Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.22
+          },
+          {
+            "holdingName": "Alphabet Inc Class C",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.81
+          },
+          {
+            "holdingName": "Broadcom Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.78
+          },
+          {
+            "holdingName": "Meta Platforms Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.77
+          },
+          {
+            "holdingName": "Micron Technology Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.3299999999999998
+          },
+          {
+            "holdingName": "Tesla Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.13
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.81
+          },
+          {
+            "label": "CASH",
+            "weight": 0.16
+          },
+          {
+            "label": "OTHER",
+            "weight": 0.04
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 28.079999999999995,
+          "largestHoldingWeight": 5.82,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.16,
+          "equityWeight": 99.81,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0010611148",
+      "fundName": "Storebrand Indeks - Alle Markeder A",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0010611148",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0010611148",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:18.925Z",
+        "contentHash": "e53bd5b27833d961ae88efff59bffb3670ef8a5e75f46377e6b569e892b16712",
+        "geography": [
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 66.97999999999999
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 17.34
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 13.69
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 1
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0.9900000000000001
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 64.01
+          },
+          {
+            "region": null,
+            "country": "Japan",
+            "weight": 5.35
+          },
+          {
+            "region": null,
+            "country": "Taiwan",
+            "weight": 3.46
+          },
+          {
+            "region": null,
+            "country": "Canada",
+            "weight": 2.97
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 2.8899999999999997
+          },
+          {
+            "region": null,
+            "country": "South Korea",
+            "weight": 2.55
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 2.1999999999999997
+          },
+          {
+            "region": null,
+            "country": "China",
+            "weight": 2.16
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 1.83
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 1.7500000000000002
+          },
+          {
+            "region": null,
+            "country": "India",
+            "weight": 1.26
+          },
+          {
+            "region": null,
+            "country": "Australia",
+            "weight": 1.25
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 1.2
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 0.8999999999999999
+          },
+          {
+            "region": null,
+            "country": "Italia",
+            "weight": 0.7000000000000001
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 0.61
+          },
+          {
+            "region": null,
+            "country": "Brazil",
+            "weight": 0.5599999999999999
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 0.47000000000000003
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 0.45999999999999996
+          },
+          {
+            "region": null,
+            "country": "Denmark",
+            "weight": 0.3
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 0.3
+          },
+          {
+            "region": null,
+            "country": "Saudi-Arabia",
+            "weight": 0.29
+          },
+          {
+            "region": null,
+            "country": "Sør-Afrika",
+            "weight": 0.29
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 0.27
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 0.24
+          },
+          {
+            "region": null,
+            "country": "Polen",
+            "weight": 0.21
+          },
+          {
+            "region": null,
+            "country": "Finland",
+            "weight": 0.2
+          },
+          {
+            "region": null,
+            "country": "De forente arabiske emirater",
+            "weight": 0.18
+          },
+          {
+            "region": null,
+            "country": "Malaysia",
+            "weight": 0.16999999999999998
+          },
+          {
+            "region": null,
+            "country": "Irland",
+            "weight": 0.15
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 0.13
+          },
+          {
+            "region": null,
+            "country": "Israel",
+            "weight": 0.13
+          },
+          {
+            "region": null,
+            "country": "Portugal",
+            "weight": 0.1
+          },
+          {
+            "region": null,
+            "country": "Peru",
+            "weight": 0.06999999999999999
+          },
+          {
+            "region": null,
+            "country": "Thailand",
+            "weight": 0.06999999999999999
+          },
+          {
+            "region": null,
+            "country": "Indonesia",
+            "weight": 0.06
+          },
+          {
+            "region": null,
+            "country": "Colombia",
+            "weight": 0.05
+          },
+          {
+            "region": null,
+            "country": "Hellas",
+            "weight": 0.05
+          },
+          {
+            "region": null,
+            "country": "New Zealand",
+            "weight": 0.04
+          },
+          {
+            "region": null,
+            "country": "Filippinene",
+            "weight": 0.04
+          },
+          {
+            "region": null,
+            "country": "Østerrike",
+            "weight": 0.03
+          },
+          {
+            "region": null,
+            "country": "Tsjekkia",
+            "weight": 0.02
+          },
+          {
+            "region": null,
+            "country": "Ungarn",
+            "weight": 0.01
+          },
+          {
+            "region": null,
+            "country": "Tyrkia",
+            "weight": 0.01
+          },
+          {
+            "region": null,
+            "country": "Russland",
+            "weight": 0
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 34.050000000000004
+          },
+          {
+            "label": "Financials",
+            "weight": 16.3
+          },
+          {
+            "label": "Industrials",
+            "weight": 9.5
+          },
+          {
+            "label": "Healthcare",
+            "weight": 8.52
+          },
+          {
+            "label": "Communication Services",
+            "weight": 8.37
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 8.04
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 4.279999999999999
+          },
+          {
+            "label": "Energy",
+            "weight": 3.8
+          },
+          {
+            "label": "Materials",
+            "weight": 3.37
+          },
+          {
+            "label": "Utilities",
+            "weight": 2.3
+          },
+          {
+            "label": "Real Estate",
+            "weight": 1.46
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "NVIDIA Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.13
+          },
+          {
+            "holdingName": "Apple Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.78
+          },
+          {
+            "holdingName": "Microsoft Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.61
+          },
+          {
+            "holdingName": "Amazon.com Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.3800000000000003
+          },
+          {
+            "holdingName": "Alphabet Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.96
+          },
+          {
+            "holdingName": "Taiwan Semiconductor Manufacturing Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.8599999999999999
+          },
+          {
+            "holdingName": "Alphabet Inc Class C",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.6
+          },
+          {
+            "holdingName": "Broadcom Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.5699999999999998
+          },
+          {
+            "holdingName": "Meta Platforms Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.5599999999999998
+          },
+          {
+            "holdingName": "Micron Technology Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.18
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.8
+          },
+          {
+            "label": "CASH",
+            "weight": 0.16999999999999998
+          },
+          {
+            "label": "OTHER",
+            "weight": 0.03
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 25.63,
+          "largestHoldingWeight": 5.13,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.16999999999999998,
+          "equityWeight": 99.8,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0012445214",
+      "fundName": "KLP AksjeNorge Indeks N",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0012445214",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0012445214",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:19.177Z",
+        "contentHash": "f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398",
+        "geography": [
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 96.81
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 2.27
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 0.9199999999999999
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 94.85
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 2.27
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 1.8900000000000001
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 0.9199999999999999
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 0.06999999999999999
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Energy",
+            "weight": 30.669999999999998
+          },
+          {
+            "label": "Financials",
+            "weight": 20.66
+          },
+          {
+            "label": "Industrials",
+            "weight": 18.23
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 11
+          },
+          {
+            "label": "Materials",
+            "weight": 8.38
+          },
+          {
+            "label": "Communication Services",
+            "weight": 5.35
+          },
+          {
+            "label": "Technology",
+            "weight": 3.73
+          },
+          {
+            "label": "Utilities",
+            "weight": 0.8500000000000001
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 0.67
+          },
+          {
+            "label": "Healthcare",
+            "weight": 0.27
+          },
+          {
+            "label": "Real Estate",
+            "weight": 0.2
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Equinor ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 14.680000000000001
+          },
+          {
+            "holdingName": "DNB Bank ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 10.97
+          },
+          {
+            "holdingName": "Kongsberg Gruppen ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 6.18
+          },
+          {
+            "holdingName": "Aker BP ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.72
+          },
+          {
+            "holdingName": "Norsk Hydro ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.66
+          },
+          {
+            "holdingName": "Mowi ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4
+          },
+          {
+            "holdingName": "Storebrand ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.5999999999999996
+          },
+          {
+            "holdingName": "Telenor ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.47
+          },
+          {
+            "holdingName": "Subsea 7 SA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.2
+          },
+          {
+            "holdingName": "Yara International ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.0700000000000003
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.59
+          },
+          {
+            "label": "CASH",
+            "weight": 0.41000000000000003
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 58.55000000000001,
+          "largestHoldingWeight": 14.680000000000001,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.41000000000000003,
+          "equityWeight": 99.59,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0013711242",
+      "fundName": "Storebrand Europe Index N",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0013711242",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0013711242",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:19.461Z",
+        "contentHash": "40cf4a85aa7a39d883bc420f63daba23677c52e5b507473715009ecafdd1fba9",
+        "geography": [
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 96.8
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 2.25
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 0.49
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0.45999999999999996
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 21.05
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 14.6
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 13.889999999999999
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 13.239999999999998
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 8.77
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 6.5
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 5.56
+          },
+          {
+            "region": null,
+            "country": "Italia",
+            "weight": 4.569999999999999
+          },
+          {
+            "region": null,
+            "country": "Denmark",
+            "weight": 2.4
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 2.25
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 1.5699999999999998
+          },
+          {
+            "region": null,
+            "country": "Finland",
+            "weight": 1.49
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 1.08
+          },
+          {
+            "region": null,
+            "country": "Irland",
+            "weight": 0.8200000000000001
+          },
+          {
+            "region": null,
+            "country": "Østerrike",
+            "weight": 0.63
+          },
+          {
+            "region": null,
+            "country": "Portugal",
+            "weight": 0.42
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 0.37
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 0.27999999999999997
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 0.22
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 0.18
+          },
+          {
+            "region": null,
+            "country": "Polen",
+            "weight": 0.08
+          },
+          {
+            "region": null,
+            "country": "Tsjekkia",
+            "weight": 0.05
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Financials",
+            "weight": 25.94
+          },
+          {
+            "label": "Industrials",
+            "weight": 18.02
+          },
+          {
+            "label": "Healthcare",
+            "weight": 13.01
+          },
+          {
+            "label": "Technology",
+            "weight": 9.77
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 7.430000000000001
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 6.22
+          },
+          {
+            "label": "Energy",
+            "weight": 5.67
+          },
+          {
+            "label": "Materials",
+            "weight": 4.99
+          },
+          {
+            "label": "Utilities",
+            "weight": 4.99
+          },
+          {
+            "label": "Communication Services",
+            "weight": 3.45
+          },
+          {
+            "label": "Real Estate",
+            "weight": 0.5
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "ASML Holding NV",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.1499999999999995
+          },
+          {
+            "holdingName": "HSBC Holdings PLC",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.6599999999999997
+          },
+          {
+            "holdingName": "Roche Holding AG Ordinary Shares new",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.17
+          },
+          {
+            "holdingName": "Shell PLC",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.16
+          },
+          {
+            "holdingName": "Novartis AG Registered Shares",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.0500000000000003
+          },
+          {
+            "holdingName": "Siemens AG",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.83
+          },
+          {
+            "holdingName": "AstraZeneca PLC",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.83
+          },
+          {
+            "holdingName": "Nestle SA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.7500000000000002
+          },
+          {
+            "holdingName": "SAP SE",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.58
+          },
+          {
+            "holdingName": "Banco Santander SA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.52
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.27
+          },
+          {
+            "label": "CASH",
+            "weight": 0.49
+          },
+          {
+            "label": "OTHER",
+            "weight": 0.24
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 22.7,
+          "largestHoldingWeight": 5.1499999999999995,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.49,
+          "equityWeight": 99.27,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0010817919",
+      "fundName": "Storebrand Indeks - Nye Markeder N",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0010817919",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0010817919",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:19.690Z",
+        "contentHash": "3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0",
+        "geography": [
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 82.23
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 7.48
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 7.1
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 2.45
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 0.75
+          },
+          {
+            "region": null,
+            "country": "Taiwan",
+            "weight": 29.29
+          },
+          {
+            "region": null,
+            "country": "South Korea",
+            "weight": 21.43
+          },
+          {
+            "region": null,
+            "country": "China",
+            "weight": 17.150000000000002
+          },
+          {
+            "region": null,
+            "country": "India",
+            "weight": 11.020000000000001
+          },
+          {
+            "region": null,
+            "country": "Brazil",
+            "weight": 4.25
+          },
+          {
+            "region": null,
+            "country": "Sør-Afrika",
+            "weight": 2.5700000000000003
+          },
+          {
+            "region": null,
+            "country": "Saudi-Arabia",
+            "weight": 2.45
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 1.77
+          },
+          {
+            "region": null,
+            "country": "De forente arabiske emirater",
+            "weight": 1.5699999999999998
+          },
+          {
+            "region": null,
+            "country": "Malaysia",
+            "weight": 1.16
+          },
+          {
+            "region": null,
+            "country": "Polen",
+            "weight": 1.11
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 0.9199999999999999
+          },
+          {
+            "region": null,
+            "country": "Thailand",
+            "weight": 0.88
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 0.75
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 0.59
+          },
+          {
+            "region": null,
+            "country": "Hellas",
+            "weight": 0.5
+          },
+          {
+            "region": null,
+            "country": "Chile",
+            "weight": 0.44999999999999996
+          },
+          {
+            "region": null,
+            "country": "Indonesia",
+            "weight": 0.44
+          },
+          {
+            "region": null,
+            "country": "Peru",
+            "weight": 0.44
+          },
+          {
+            "region": null,
+            "country": "Tyrkia",
+            "weight": 0.33
+          },
+          {
+            "region": null,
+            "country": "Ungarn",
+            "weight": 0.32
+          },
+          {
+            "region": null,
+            "country": "Filippinene",
+            "weight": 0.27999999999999997
+          },
+          {
+            "region": null,
+            "country": "Colombia",
+            "weight": 0.18
+          },
+          {
+            "region": null,
+            "country": "Tsjekkia",
+            "weight": 0.13999999999999999
+          },
+          {
+            "region": null,
+            "country": "Russland",
+            "weight": 0.02
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 0
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 44.01
+          },
+          {
+            "label": "Financials",
+            "weight": 20.44
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 7.5
+          },
+          {
+            "label": "Industrials",
+            "weight": 6.260000000000001
+          },
+          {
+            "label": "Communication Services",
+            "weight": 6.1899999999999995
+          },
+          {
+            "label": "Materials",
+            "weight": 4.64
+          },
+          {
+            "label": "Healthcare",
+            "weight": 3.2
+          },
+          {
+            "label": "Energy",
+            "weight": 2.82
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 2.8000000000000003
+          },
+          {
+            "label": "Utilities",
+            "weight": 1.35
+          },
+          {
+            "label": "Real Estate",
+            "weight": 0.79
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Taiwan Semiconductor Manufacturing Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 15.559999999999999
+          },
+          {
+            "holdingName": "Samsung Electronics Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 7.53
+          },
+          {
+            "holdingName": "SK hynix Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.8999999999999995
+          },
+          {
+            "holdingName": "Tencent Holdings Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.78
+          },
+          {
+            "holdingName": "Alibaba Group Holding Ltd Ordinary Shares",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.8900000000000001
+          },
+          {
+            "holdingName": "MediaTek Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.82
+          },
+          {
+            "holdingName": "Samsung Electronics Co Ltd Pfd Registered Shs Non-Voting",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 0.98
+          },
+          {
+            "holdingName": "China Construction Bank Corp Class H",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 0.97
+          },
+          {
+            "holdingName": "Delta Electronics Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 0.9400000000000001
+          },
+          {
+            "holdingName": "Hon Hai Precision Industry Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 0.7799999999999999
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.33999999999999
+          },
+          {
+            "label": "CASH",
+            "weight": 0.66
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 39.14999999999999,
+          "largestHoldingWeight": 15.559999999999999,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.66,
+          "equityWeight": 99.33999999999999,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0013004622",
+      "fundName": "DNB Teknologi B",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0013004622",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0013004622",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:19.900Z",
+        "contentHash": "fb360f49bcf1563fdbcb0f9bacdf31e5db41ba60ad1009972df569007025c415",
+        "geography": [
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 68.43
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 21.6
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 8.64
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 1.32
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 68.43
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 6.7
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 4.66
+          },
+          {
+            "region": null,
+            "country": "Japan",
+            "weight": 3.94
+          },
+          {
+            "region": null,
+            "country": "South Korea",
+            "weight": 3.93
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 3.37
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 3.1300000000000003
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 1.7399999999999998
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 1.44
+          },
+          {
+            "region": null,
+            "country": "Israel",
+            "weight": 1.32
+          },
+          {
+            "region": null,
+            "country": "Finland",
+            "weight": 0.5599999999999999
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 0.5
+          },
+          {
+            "region": null,
+            "country": "China",
+            "weight": 0.27
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 62.050000000000004
+          },
+          {
+            "label": "Communication Services",
+            "weight": 19.86
+          },
+          {
+            "label": "Financials",
+            "weight": 9.22
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 8.870000000000001
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Microsoft Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 9.55
+          },
+          {
+            "holdingName": "Alphabet Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 6.77
+          },
+          {
+            "holdingName": "NVIDIA Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.7700000000000005
+          },
+          {
+            "holdingName": "Amazon.com Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.29
+          },
+          {
+            "holdingName": "Visa Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.7
+          },
+          {
+            "holdingName": "Mastercard Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4
+          },
+          {
+            "holdingName": "Broadcom Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.92
+          },
+          {
+            "holdingName": "Meta Platforms Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.64
+          },
+          {
+            "holdingName": "Telefonaktiebolaget L M Ericsson Class B",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.62
+          },
+          {
+            "holdingName": "SAP SE",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.96
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 98.13
+          },
+          {
+            "label": "CASH",
+            "weight": 1.87
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 50.22,
+          "largestHoldingWeight": 9.55,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 1.87,
+          "equityWeight": 98.13,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0010817505",
+      "fundName": "Storebrand Global Multifactor N",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0010817505",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0010817505",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:20.124Z",
+        "contentHash": "d7dbac85eae1d541a108ce966bfd1bfeffb3f077d6d8663356c696ac22b5343c",
+        "geography": [
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 74.1
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 15.09
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 9.31
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 1.49
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 67.06
+          },
+          {
+            "region": null,
+            "country": "Japan",
+            "weight": 8.3
+          },
+          {
+            "region": null,
+            "country": "Canada",
+            "weight": 7.04
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 2.45
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 1.83
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 1.79
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 1.5599999999999998
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 1.55
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 1.3299999999999998
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 1.25
+          },
+          {
+            "region": null,
+            "country": "Finland",
+            "weight": 1.18
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 1
+          },
+          {
+            "region": null,
+            "country": "Italia",
+            "weight": 0.86
+          },
+          {
+            "region": null,
+            "country": "Østerrike",
+            "weight": 0.62
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 0.5499999999999999
+          },
+          {
+            "region": null,
+            "country": "Australia",
+            "weight": 0.36
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 0.33999999999999997
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 0.31
+          },
+          {
+            "region": null,
+            "country": "Denmark",
+            "weight": 0.22
+          },
+          {
+            "region": null,
+            "country": "New Zealand",
+            "weight": 0.18
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 0.16
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 0.05
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 30.48
+          },
+          {
+            "label": "Financials",
+            "weight": 16.86
+          },
+          {
+            "label": "Industrials",
+            "weight": 10.07
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 9.39
+          },
+          {
+            "label": "Healthcare",
+            "weight": 9.030000000000001
+          },
+          {
+            "label": "Communication Services",
+            "weight": 8.21
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 4.79
+          },
+          {
+            "label": "Energy",
+            "weight": 4.07
+          },
+          {
+            "label": "Materials",
+            "weight": 3.02
+          },
+          {
+            "label": "Utilities",
+            "weight": 2.23
+          },
+          {
+            "label": "Real Estate",
+            "weight": 1.8499999999999999
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "NVIDIA Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.7
+          },
+          {
+            "holdingName": "Apple Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.32
+          },
+          {
+            "holdingName": "Microsoft Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.9000000000000004
+          },
+          {
+            "holdingName": "Dell Technologies Inc Ordinary Shares - Class C",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.68
+          },
+          {
+            "holdingName": "Alphabet Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.7000000000000002
+          },
+          {
+            "holdingName": "Amazon.com Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.63
+          },
+          {
+            "holdingName": "Flex Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.25
+          },
+          {
+            "holdingName": "Alphabet Inc Class C",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.24
+          },
+          {
+            "holdingName": "Avnet Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.21
+          },
+          {
+            "holdingName": "Arrow Electronics Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.15
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.79
+          },
+          {
+            "label": "CASH",
+            "weight": 0.21
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 22.779999999999998,
+          "largestHoldingWeight": 4.7,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.21,
+          "equityWeight": 99.79,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0010817836",
+      "fundName": "Storebrand Verdi N",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0010817836",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0010817836",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:20.320Z",
+        "contentHash": "1ef86f1e00256dc61e455a358b31be0dcda4c3d123f21bb33485831b1c9b84d6",
+        "geography": [
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 92.27
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 4.44
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 3.15
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0.13999999999999999
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 87.52
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 4.44
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 3.15
+          },
+          {
+            "region": null,
+            "country": "Andre land",
+            "weight": 2.55
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 1.43
+          },
+          {
+            "region": null,
+            "country": "Hellas",
+            "weight": 0.7799999999999999
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 0.13999999999999999
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Financials",
+            "weight": 24.13
+          },
+          {
+            "label": "Energy",
+            "weight": 22.8
+          },
+          {
+            "label": "Industrials",
+            "weight": 20.26
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 14.85
+          },
+          {
+            "label": "Materials",
+            "weight": 9.76
+          },
+          {
+            "label": "Communication Services",
+            "weight": 5.25
+          },
+          {
+            "label": "Utilities",
+            "weight": 1.4500000000000002
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 1.03
+          },
+          {
+            "label": "Real Estate",
+            "weight": 0.48
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Equinor ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 15.27
+          },
+          {
+            "holdingName": "DNB Bank ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 12.76
+          },
+          {
+            "holdingName": "Mowi ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.970000000000001
+          },
+          {
+            "holdingName": "Telenor ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.09
+          },
+          {
+            "holdingName": "Norsk Hydro ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.71
+          },
+          {
+            "holdingName": "Aker ASA Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.37
+          },
+          {
+            "holdingName": "Storebrand ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.06
+          },
+          {
+            "holdingName": "Orkla ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.84
+          },
+          {
+            "holdingName": "Gjensidige Forsikring ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.3099999999999996
+          },
+          {
+            "holdingName": "Yara International ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.9899999999999998
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 97.06
+          },
+          {
+            "label": "CASH",
+            "weight": 2.94
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 62.37000000000001,
+          "largestHoldingWeight": 15.27,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 2.94,
+          "equityWeight": 97.06,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0012884149",
+      "fundName": "Storebrand Vekst B",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0012884149",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0012884149",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:20.526Z",
+        "contentHash": "cb6f26502532268f5441c29a9d9e417207d35a35e488747e11d75ca0658b4e58",
+        "geography": [
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 98.6
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 1.4000000000000001
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 97.27
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 1.4000000000000001
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 1.3299999999999998
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Energy",
+            "weight": 34.65
+          },
+          {
+            "label": "Technology",
+            "weight": 17.98
+          },
+          {
+            "label": "Industrials",
+            "weight": 17.27
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 9.44
+          },
+          {
+            "label": "Communication Services",
+            "weight": 7.7
+          },
+          {
+            "label": "Utilities",
+            "weight": 4.82
+          },
+          {
+            "label": "Financials",
+            "weight": 4.41
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 3.37
+          },
+          {
+            "label": "Healthcare",
+            "weight": 0.36
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Subsea 7 SA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 8.91
+          },
+          {
+            "holdingName": "Aker BP ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 8.53
+          },
+          {
+            "holdingName": "Kongsberg Gruppen ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 8.03
+          },
+          {
+            "holdingName": "Vend Marketplaces ASA Ordinary Shares",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.42
+          },
+          {
+            "holdingName": "Nordic Semiconductor ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.89
+          },
+          {
+            "holdingName": "Scatec ASA Ordinary Shares",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.6899999999999995
+          },
+          {
+            "holdingName": "SalMar ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.54
+          },
+          {
+            "holdingName": "DNO ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.42
+          },
+          {
+            "holdingName": "Atea ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.36
+          },
+          {
+            "holdingName": "Panoro Energy ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.2700000000000005
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 97.39
+          },
+          {
+            "label": "CASH",
+            "weight": 2.6100000000000003
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 58.06,
+          "largestHoldingWeight": 8.91,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 2.6100000000000003,
+          "equityWeight": 97.39,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "LU0069449576",
+      "fundName": "Fidelity Funds - World Fund A-Euro",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "LU0069449576",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/LU0069449576",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:20.744Z",
+        "contentHash": "37fdf609bd66f0ebc4ddbe0c5646550968050a2ca70decbd850077296f5350ba",
+        "geography": [
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 68.14
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 21.490000000000002
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 9.66
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0.7100000000000001
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 67.25
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 6.08
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 5.2299999999999995
+          },
+          {
+            "region": null,
+            "country": "Japan",
+            "weight": 4.29
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 3.52
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 2.45
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 1.9900000000000002
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 1.79
+          },
+          {
+            "region": null,
+            "country": "South Korea",
+            "weight": 1.3
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 1.25
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 1.1400000000000001
+          },
+          {
+            "region": null,
+            "country": "China",
+            "weight": 0.9299999999999999
+          },
+          {
+            "region": null,
+            "country": "Canada",
+            "weight": 0.89
+          },
+          {
+            "region": null,
+            "country": "Brazil",
+            "weight": 0.7100000000000001
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 0.7000000000000001
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 0.48
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 27.87
+          },
+          {
+            "label": "Industrials",
+            "weight": 15.879999999999999
+          },
+          {
+            "label": "Financials",
+            "weight": 14.790000000000001
+          },
+          {
+            "label": "Healthcare",
+            "weight": 10.8
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 10.2
+          },
+          {
+            "label": "Communication Services",
+            "weight": 9.42
+          },
+          {
+            "label": "Energy",
+            "weight": 3.84
+          },
+          {
+            "label": "Utilities",
+            "weight": 3.37
+          },
+          {
+            "label": "Materials",
+            "weight": 2.76
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 1.06
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Microsoft Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.35
+          },
+          {
+            "holdingName": "Alphabet Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.89
+          },
+          {
+            "holdingName": "NVIDIA Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.19
+          },
+          {
+            "holdingName": "Amazon.com Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.9
+          },
+          {
+            "holdingName": "JPMorgan Chase & Co",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.02
+          },
+          {
+            "holdingName": "Meta Platforms Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.35
+          },
+          {
+            "holdingName": "Apple Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.06
+          },
+          {
+            "holdingName": "Marvell Technology Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2
+          },
+          {
+            "holdingName": "KBC Groupe NV",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.96
+          },
+          {
+            "holdingName": "ASML Holding NV",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.8499999999999999
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 98.15
+          },
+          {
+            "label": "CASH",
+            "weight": 1.76
+          },
+          {
+            "label": "BOND",
+            "weight": 0.09
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 31.57,
+          "largestHoldingWeight": 5.35,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 1.76,
+          "equityWeight": 98.15,
+          "bondWeight": 0.09
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "LU0261949381",
+      "fundName": "Fidelity Nordic A-Acc-SEK",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "LU0261949381",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/LU0261949381",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:21.010Z",
+        "contentHash": "fb8d0a9bdf0273b8226ad8e10132e1a65c7ad4c254757404b1739de4ca7458dd",
+        "geography": [
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 96.41
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 3.5900000000000003
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 44.4
+          },
+          {
+            "region": null,
+            "country": "Norway",
+            "weight": 20.880000000000003
+          },
+          {
+            "region": null,
+            "country": "Denmark",
+            "weight": 15.690000000000001
+          },
+          {
+            "region": null,
+            "country": "Finland",
+            "weight": 9.77
+          },
+          {
+            "region": null,
+            "country": "Hellas",
+            "weight": 3.7600000000000002
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 2.16
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 1.9
+          },
+          {
+            "region": null,
+            "country": "Canada",
+            "weight": 1.43
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Industrials",
+            "weight": 22.869999999999997
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 20.79
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 10.52
+          },
+          {
+            "label": "Financials",
+            "weight": 9.77
+          },
+          {
+            "label": "Energy",
+            "weight": 9.75
+          },
+          {
+            "label": "Materials",
+            "weight": 8.200000000000001
+          },
+          {
+            "label": "Healthcare",
+            "weight": 7.55
+          },
+          {
+            "label": "Communication Services",
+            "weight": 6.05
+          },
+          {
+            "label": "Technology",
+            "weight": 4.5
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Evolution AB",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 6.329999999999999
+          },
+          {
+            "holdingName": "Nordea Bank Abp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.63
+          },
+          {
+            "holdingName": "Vestas Wind Systems AS",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.35
+          },
+          {
+            "holdingName": "Elekta AB Class B",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.19
+          },
+          {
+            "holdingName": "Okeanis Eco Tankers Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.6999999999999997
+          },
+          {
+            "holdingName": "Mowi ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.65
+          },
+          {
+            "holdingName": "Telenor ASA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.54
+          },
+          {
+            "holdingName": "Carlsberg AS Class B",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.47
+          },
+          {
+            "holdingName": "Telefonaktiebolaget L M Ericsson Class B",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.36
+          },
+          {
+            "holdingName": "GN Store Nord AS",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.2300000000000004
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 98.29
+          },
+          {
+            "label": "CASH",
+            "weight": 1.71
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 42.45,
+          "largestHoldingWeight": 6.329999999999999,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 1.71,
+          "equityWeight": 98.29,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "LU0251128657",
+      "fundName": "Fidelity Europe Equity ESG A-Acc-EUR",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "LU0251128657",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/LU0251128657",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:21.215Z",
+        "contentHash": "f83fa96cc29dc24703d5eef46e17fa4e228b8a3d665f8a6154bc549d2503ded9",
+        "geography": [
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 97.04
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 1.52
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 1.44
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "UK",
+            "weight": 21.36
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 18.38
+          },
+          {
+            "region": null,
+            "country": "France",
+            "weight": 16.75
+          },
+          {
+            "region": null,
+            "country": "Germany",
+            "weight": 9
+          },
+          {
+            "region": null,
+            "country": "Belgia",
+            "weight": 8.51
+          },
+          {
+            "region": null,
+            "country": "Switzerland",
+            "weight": 8.37
+          },
+          {
+            "region": null,
+            "country": "Irland",
+            "weight": 5.140000000000001
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 4.37
+          },
+          {
+            "region": null,
+            "country": "Sweden",
+            "weight": 4.25
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 1.52
+          },
+          {
+            "region": null,
+            "country": "Singapore",
+            "weight": 1.44
+          },
+          {
+            "region": null,
+            "country": "Hellas",
+            "weight": 0.8999999999999999
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Financials",
+            "weight": 27.589999999999996
+          },
+          {
+            "label": "Industrials",
+            "weight": 17.810000000000002
+          },
+          {
+            "label": "Healthcare",
+            "weight": 14.27
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 8.94
+          },
+          {
+            "label": "Technology",
+            "weight": 8.64
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 7.539999999999999
+          },
+          {
+            "label": "Utilities",
+            "weight": 6.32
+          },
+          {
+            "label": "Materials",
+            "weight": 5.84
+          },
+          {
+            "label": "Communication Services",
+            "weight": 2.35
+          },
+          {
+            "label": "Real Estate",
+            "weight": 0.7000000000000001
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "ASML Holding NV",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.949999999999999
+          },
+          {
+            "holdingName": "ABN AMRO Bank NV",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.16
+          },
+          {
+            "holdingName": "AIB Group PLC",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.84
+          },
+          {
+            "holdingName": "Roche Holding AG Ordinary Shares new",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.8
+          },
+          {
+            "holdingName": "BNP Paribas Act. Cat.A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.7199999999999998
+          },
+          {
+            "holdingName": "KBC Groupe NV",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.3099999999999996
+          },
+          {
+            "holdingName": "Siemens AG",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.94
+          },
+          {
+            "holdingName": "Compagnie Financiere Richemont SA Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.74
+          },
+          {
+            "holdingName": "Industria De Diseno Textil SA Share From Split",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.7199999999999998
+          },
+          {
+            "holdingName": "L'Oreal SA",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.69
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.83999999999999
+          },
+          {
+            "label": "CASH",
+            "weight": 0.16
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 35.87,
+          "largestHoldingWeight": 5.949999999999999,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.16,
+          "equityWeight": 99.83999999999999,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "LU0070214290",
+      "fundName": "JPM US Select Equity A (acc) USD",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "LU0070214290",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/LU0070214290",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:21.436Z",
+        "contentHash": "cf2ca2f0c9ea1ec33801d1af6072a13bcf5b9f5c1bb14df5ae1b7b92ef8f8cb9",
+        "geography": [
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 99.26
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 0.74
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "USA",
+            "weight": 98.54
+          },
+          {
+            "region": null,
+            "country": "Netherlands",
+            "weight": 0.74
+          },
+          {
+            "region": null,
+            "country": "Canada",
+            "weight": 0.72
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 35.94
+          },
+          {
+            "label": "Financials",
+            "weight": 15.65
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 11.15
+          },
+          {
+            "label": "Communication Services",
+            "weight": 11.07
+          },
+          {
+            "label": "Healthcare",
+            "weight": 7.7700000000000005
+          },
+          {
+            "label": "Industrials",
+            "weight": 7.340000000000001
+          },
+          {
+            "label": "Utilities",
+            "weight": 4.1000000000000005
+          },
+          {
+            "label": "Energy",
+            "weight": 2.75
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 1.95
+          },
+          {
+            "label": "Materials",
+            "weight": 1.44
+          },
+          {
+            "label": "Real Estate",
+            "weight": 0.83
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "NVIDIA Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 8.39
+          },
+          {
+            "holdingName": "Alphabet Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 6.23
+          },
+          {
+            "holdingName": "Apple Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.7700000000000005
+          },
+          {
+            "holdingName": "Microsoft Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 5.1
+          },
+          {
+            "holdingName": "Amazon.com Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.91
+          },
+          {
+            "holdingName": "Broadcom Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.53
+          },
+          {
+            "holdingName": "Mastercard Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.2800000000000002
+          },
+          {
+            "holdingName": "NextEra Energy Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.6599999999999997
+          },
+          {
+            "holdingName": "Wells Fargo & Co",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.6100000000000003
+          },
+          {
+            "holdingName": "Meta Platforms Inc Class A",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.32
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 99.08
+          },
+          {
+            "label": "CASH",
+            "weight": 0.91
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 44.8,
+          "largestHoldingWeight": 8.39,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 0.91,
+          "equityWeight": 99.08,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "LU2051468812",
+      "fundName": "JPM Emerging Markets Sustainable Equity A (acc) - USD",
+      "status": "SUCCESS",
+      "duplicate": true,
+      "data": {
+        "isin": "LU2051468812",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/LU2051468812",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:21.729Z",
+        "contentHash": "42a71369d0361afdac9e5f3361df9ed55514dd3835b9557e360fe86bc3c21924",
+        "geography": [
+          {
+            "region": "DEVELOPED_ASIA",
+            "country": null,
+            "weight": 80.06
+          },
+          {
+            "region": "LATIN_AMERICA",
+            "country": null,
+            "weight": 11.17
+          },
+          {
+            "region": "MIDDLE_EAST_AFRICA",
+            "country": null,
+            "weight": 5.45
+          },
+          {
+            "region": "EUROPE",
+            "country": null,
+            "weight": 3.32
+          },
+          {
+            "region": "NORTH_AMERICA",
+            "country": null,
+            "weight": 0
+          },
+          {
+            "region": null,
+            "country": "Taiwan",
+            "weight": 26.19
+          },
+          {
+            "region": null,
+            "country": "China",
+            "weight": 18.85
+          },
+          {
+            "region": null,
+            "country": "South Korea",
+            "weight": 15.340000000000002
+          },
+          {
+            "region": null,
+            "country": "India",
+            "weight": 13.41
+          },
+          {
+            "region": null,
+            "country": "Brazil",
+            "weight": 7.9399999999999995
+          },
+          {
+            "region": null,
+            "country": "Hongkong",
+            "weight": 4.58
+          },
+          {
+            "region": null,
+            "country": "Sør-Afrika",
+            "weight": 3.34
+          },
+          {
+            "region": null,
+            "country": "Indonesia",
+            "weight": 1.7000000000000002
+          },
+          {
+            "region": null,
+            "country": "Hellas",
+            "weight": 1.67
+          },
+          {
+            "region": null,
+            "country": "Peru",
+            "weight": 1.66
+          },
+          {
+            "region": null,
+            "country": "Spania",
+            "weight": 1.6400000000000001
+          },
+          {
+            "region": null,
+            "country": "Mexico",
+            "weight": 1.58
+          },
+          {
+            "region": null,
+            "country": "Saudi-Arabia",
+            "weight": 1.5599999999999998
+          },
+          {
+            "region": null,
+            "country": "De forente arabiske emirater",
+            "weight": 0.5499999999999999
+          }
+        ],
+        "sectors": [
+          {
+            "label": "Technology",
+            "weight": 39.44
+          },
+          {
+            "label": "Financials",
+            "weight": 32.34
+          },
+          {
+            "label": "Consumer Discretionary",
+            "weight": 9.24
+          },
+          {
+            "label": "Communication Services",
+            "weight": 7.12
+          },
+          {
+            "label": "Industrials",
+            "weight": 6.12
+          },
+          {
+            "label": "Healthcare",
+            "weight": 2.37
+          },
+          {
+            "label": "Consumer Staples",
+            "weight": 1
+          },
+          {
+            "label": "Utilities",
+            "weight": 0.8699999999999999
+          },
+          {
+            "label": "Real Estate",
+            "weight": 0.75
+          },
+          {
+            "label": "Materials",
+            "weight": 0.74
+          }
+        ],
+        "holdings": [
+          {
+            "holdingName": "Taiwan Semiconductor Manufacturing Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 9.83
+          },
+          {
+            "holdingName": "SK hynix Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 7.37
+          },
+          {
+            "holdingName": "Tencent Holdings Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 4.22
+          },
+          {
+            "holdingName": "Accton Technology Corp",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 3.1300000000000003
+          },
+          {
+            "holdingName": "Advantech Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.93
+          },
+          {
+            "holdingName": "Delta Electronics Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.83
+          },
+          {
+            "holdingName": "Samsung Fire & Marine Insurance Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.18
+          },
+          {
+            "holdingName": "Itau Unibanco Holding SA Participating Preferred",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2.1399999999999997
+          },
+          {
+            "holdingName": "Samsung Life Insurance Co Ltd",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 2
+          },
+          {
+            "holdingName": "MediaTek Inc",
+            "holdingIdentifier": null,
+            "holdingType": "equity",
+            "weight": 1.8499999999999999
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "EQUITY",
+            "weight": 100.07999999999998
+          },
+          {
+            "label": "BOND",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          },
+          {
+            "label": "CASH",
+            "weight": -0.08
+          }
+        ],
+        "geographyScope": "COMPLETE",
+        "sectorScope": "COMPLETE",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 38.48,
+          "largestHoldingWeight": 9.83,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": -0.08,
+          "equityWeight": 100.07999999999998,
+          "bondWeight": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0010818008",
+      "fundName": "Storebrand Likviditet N",
+      "status": "PARTIAL",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0010818008",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0010818008",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:21.996Z",
+        "contentHash": "c79ded2df0a9f88d09a155347daf2bfe38355ff49c6e739167c660b43c3cde22",
+        "geography": [],
+        "sectors": [],
+        "holdings": [
+          {
+            "holdingName": "Nordea Eiendomskreditt AS 4.98%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.97
+          },
+          {
+            "holdingName": "Nedre Romerike Vann- Frn Cert 364 100927",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.38
+          },
+          {
+            "holdingName": "Brage Finans As 5.3%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.34
+          },
+          {
+            "holdingName": "Skien Kommune 4.54%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.28
+          },
+          {
+            "holdingName": "Council of Europe Development Bank 1.99%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.2
+          },
+          {
+            "holdingName": "Sparebank 1 Naeringskreditt As 5.26%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.1400000000000001
+          },
+          {
+            "holdingName": "HSBC Holdings PLC 3.1%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.08
+          },
+          {
+            "holdingName": "Sparebanken Norge AS 4.46%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.04
+          },
+          {
+            "holdingName": "Ostfold Fylke Frn Cert 365 170927",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 0.95
+          },
+          {
+            "holdingName": "Aurskog Sparebank 5.11%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 0.9299999999999999
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "BOND",
+            "weight": 78.49000000000001
+          },
+          {
+            "label": "CASH",
+            "weight": 21.51
+          },
+          {
+            "label": "EQUITY",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "PARTIAL",
+        "sectorScope": "PARTIAL",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 12.309999999999999,
+          "largestHoldingWeight": 1.97,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 21.51,
+          "equityWeight": 0,
+          "bondWeight": 78.49000000000001
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0010818057",
+      "fundName": "Storebrand Kreditt N",
+      "status": "PARTIAL",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0010818057",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0010818057",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:22.284Z",
+        "contentHash": "1341a4c9840a4b7bc5adf9ad6aa2f81aa5122131f983599f4b4b2d2313519a41",
+        "geography": [],
+        "sectors": [],
+        "holdings": [
+          {
+            "holdingName": "Norway (Kingdom Of) 1.75%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 3.25
+          },
+          {
+            "holdingName": "Norsk Hydro ASA 6.59%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.9900000000000002
+          },
+          {
+            "holdingName": "NorgesGruppen ASA 5.35%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.63
+          },
+          {
+            "holdingName": "DFDS AS 6.48%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.6199999999999999
+          },
+          {
+            "holdingName": "SpareBank 1 SMN 5.6%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.6099999999999999
+          },
+          {
+            "holdingName": "Entra ASA 5.02%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.4200000000000002
+          },
+          {
+            "holdingName": "Olav Thon Eiendomsselskap ASA 5.79%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.4000000000000001
+          },
+          {
+            "holdingName": "Entra ASA 6.09%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.26
+          },
+          {
+            "holdingName": "Schouw & Co 6.1%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.23
+          },
+          {
+            "holdingName": "Sparebanken Norge AS 5.59%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.22
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "BOND",
+            "weight": 96.00999999999999
+          },
+          {
+            "label": "CASH",
+            "weight": 3.9899999999999998
+          },
+          {
+            "label": "EQUITY",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          }
+        ],
+        "geographyScope": "PARTIAL",
+        "sectorScope": "PARTIAL",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 16.63,
+          "largestHoldingWeight": 3.25,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": 3.9899999999999998,
+          "equityWeight": 0,
+          "bondWeight": 96.00999999999999
+        }
+      },
+      "errors": []
+    },
+    {
+      "isin": "NO0010588031",
+      "fundName": "Storebrand Global Kreditt IG B",
+      "status": "PARTIAL",
+      "duplicate": true,
+      "data": {
+        "isin": "NO0010588031",
+        "sourceType": "KRON",
+        "sourceUrl": "https://www.kron.no/fond/NO0010588031",
+        "sourceDate": null,
+        "retrievedAt": "2026-10-11T19:28:22.521Z",
+        "contentHash": "26516b74f1438c182f1d0d6cb174fc1810ef5989912aa6c8e3d3b0af44a44d94",
+        "geography": [],
+        "sectors": [],
+        "holdings": [
+          {
+            "holdingName": "Euro Schatz Future Dec 26",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 9.48
+          },
+          {
+            "holdingName": "Euro Bobl Future Dec 26",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 9.06
+          },
+          {
+            "holdingName": "Euro Bund Future Dec 26",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 3.7600000000000002
+          },
+          {
+            "holdingName": "10 Year Treasury Note Future Dec 26",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 3.53
+          },
+          {
+            "holdingName": "United States Treasury Notes 1.13%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 2.26
+          },
+          {
+            "holdingName": "2 Year Treasury Note Future Dec 26",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.82
+          },
+          {
+            "holdingName": "Ultra 10 Year US Treasury Note Future Dec 26",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.7500000000000002
+          },
+          {
+            "holdingName": "NVIDIA Corp. 4.75%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.44
+          },
+          {
+            "holdingName": "Canadian Imperial Bank of Commerce 3.25%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.38
+          },
+          {
+            "holdingName": "Alphabet Inc. 3.45%",
+            "holdingIdentifier": null,
+            "holdingType": "bond",
+            "weight": 1.3599999999999999
+          }
+        ],
+        "assetAllocations": [
+          {
+            "label": "BOND",
+            "weight": 101.42
+          },
+          {
+            "label": "EQUITY",
+            "weight": 0
+          },
+          {
+            "label": "OTHER",
+            "weight": 0
+          },
+          {
+            "label": "CASH",
+            "weight": -1.4200000000000002
+          }
+        ],
+        "geographyScope": "PARTIAL",
+        "sectorScope": "PARTIAL",
+        "qualityStatus": "MEDIUM",
+        "warnings": [
+          "source_date missing: Kron exposes a NAV date, not an exposure date"
+        ],
+        "metrics": {
+          "top10Weight": 35.84,
+          "largestHoldingWeight": 9.48,
+          "numberOfReportedHoldings": 10,
+          "cashWeight": -1.4200000000000002,
+          "equityWeight": 0,
+          "bondWeight": 101.42
+        }
+      },
+      "errors": []
+    }
+  ]
+}

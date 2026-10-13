@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-12",
+  "status": "PASS_WITH_EXTERNAL_BROWSER_BLOCKER",
+  "migrationApplied": "202610120004_profile_workflows.sql",
+  "profileEditing": {
+    "prefill": true,
+    "newVersionOnChange": true,
+    "identicalSaveDeduplicated": true,
+    "historicalVersionsRetained": true
+  },
+  "workflow": {
+    "profileToFilter": "PASS",
+    "filterToScore": "PASS",
+    "scoreToPortfolio": "PASS",
+    "retry": "PASS",
+    "idempotence": "PASS",
+    "staleVersionGuard": "PASS",
+    "v1Status": "COMPLETED",
+    "v2Status": "COMPLETED",
+    "staleV1Retry": "PARTIAL"
+  },
+  "backendE2E": {
+    "status": "PASS",
+    "proposalFunds": 3,
+    "transactionInserted": 1,
+    "snapshotInserted": 1,
+    "rebalancePlanInserted": 1,
+    "monitoringEventsInserted": 1,
+    "cleanedUp": true
+  },
+  "security": {
+    "rlsReadIsolation": "PASS",
+    "rlsWriteIsolation": "PASS",
+    "secretInClientSource": false
+  },
+  "pwa": {
+    "png192": true,
+    "png512": true,
+    "manifest": true,
+    "serviceWorker": true,
+    "standalone": true,
+    "httpsRequirementDocumented": true
+  },
+  "validation": {
+    "tests": { "passed": 176, "total": 176 },
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "dependencyAuditVulnerabilities": 0,
+    "playwrightChromium": "BLOCKED_BY_MACOS_SANDBOX"
+  },
+  "deployment": {
+    "vercelReady": true,
+    "previewDeployed": false,
+    "blocker": "No Vercel credentials available in the environment"
+  }
+}

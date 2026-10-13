@@ -1,0 +1,7 @@
+export type TransactionType="BUY"|"SELL"|"ADJUSTMENT";export type NavFreshness="FRESH"|"STALE"|"MISSING"|"FX_REQUIRED";
+export interface TransactionInput{id:string;fundId:string;type:TransactionType;tradeDate:string;settlementDate?:string|null;amount:number|null;nav:number|null;units:number|null;currency:string;fees:number;source:"MANUAL";notes?:string|null}
+export interface NormalizedTransaction extends Omit<TransactionInput,"amount"|"nav"|"units">{amount:number;nav:number;units:number}
+export interface NavValue{nav:number;date:string;currency:string;contentHash:string}
+export interface FundExposure{regions:Record<string,number>;sectors:Record<string,number>;assets:Record<string,number>;holdings:Record<string,{name:string;weight:number}>;managementStyle:"active"|"passive"|"unknown"}
+export interface Position{fundId:string;units:number;averageCost:number;costBasis:number;realizedGainLoss:number;totalInvested:number;nav:number|null;navDate:string|null;freshness:NavFreshness;marketValue:number|null;unrealizedGainLoss:number|null;unrealizedReturnPercent:number|null;actualWeight:number|null;targetWeight:number|null;deviation:number|null}
+export interface PortfolioState{positions:Position[];totalInvested:number;marketValue:number|null;unrealizedGainLoss:number|null;realizedGainLoss:number;totalReturnPercent:number|null;exposure:{regions:Record<string,number>;sectors:Record<string,number>;assets:Record<string,number>;holdings:Array<{key:string;name:string;weight:number}>;managementStyle:Record<string,number>};flags:string[]}

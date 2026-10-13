@@ -1,0 +1,10 @@
+import{readFileSync}from"node:fs";import{describe,expect,it}from"vitest";import{parseKid}from"@/lib/ingestion/kid-parser";import{parseRisk}from"@/lib/ingestion/kid-parser/parse-risk";import{parseHoldingPeriod}from"@/lib/ingestion/kid-parser/parse-holding-period";import{parseCosts}from"@/lib/ingestion/kid-parser/parse-costs";import{cleanKidText,parsePercentage}from"@/lib/ingestion/kid-parser/text-utils";
+const fixture=(name:string)=>readFileSync(new URL(`fixtures/${name}`,import.meta.url),"utf8");
+describe("deterministic KID parsing",()=>{
+ it("parses Norwegian risk, holding period, costs and scenarios",()=>{const data=parseKid(fixture("kid-parser-no.txt"));expect(data.priipRiskScore).toBe(4);expect(data.recommendedHoldingPeriodYears).toBe(5);expect(data.costs.managementFee).toBe(.008);expect(data.costs.transactionCost).toBe(.0001);expect(data.costs.entryFee).toBe(0);expect(data.costs.exitFee).toBe(0);expect(data.scenarios).toHaveLength(4);expect(data.scenarios[2]).toMatchObject({scenarioType:"MODERATE",endingValue:199600});expect(data.scenarios[2].averageReturnPerYear).toBeCloseTo(.148);});
+ it("supports English labels and decimal points",()=>{const data=parseKid(fixture("kid-parser-en.txt"));expect(data.priipRiskScore).toBe(3);expect(data.recommendedHoldingPeriodYears).toBe(3.5);expect(data.costs.managementFee).toBe(.0015);expect(data.costs.transactionCost).toBe(.0002);expect(data.costs.entryFee).toBe(.01);});
+ it("rejects an invalid risk score",()=>expect(parseRisk("We have classified this product as 9 out of 7")).toMatchObject({score:null,warnings:["Invalid PRIIP risk score: 9"]}));
+ it("reports missing risk and holding period",()=>{expect(parseRisk("Purpose only").score).toBeNull();expect(parseHoldingPeriod("Purpose only")).toBeNull();});
+ it("handles Norwegian and English percentages plus empty cells",()=>{expect(parsePercentage("0,15")).toBe(.0015);expect(parsePercentage("0.15")).toBe(.0015);expect(parseCosts("Transaction costs —").transactionCost).toBeNull();});
+ it("removes PDF control characters",()=>expect(cleanKidText("før\u0000etter\u0007 slutt")).toBe("før etter slutt"));
+});

@@ -1,0 +1,989 @@
+{
+  "generatedAt": "2026-10-11T19:13:34.080Z",
+  "universeSize": 20,
+  "counts": {
+    "FULLY_AUTOMATED": 18,
+    "PARTIALLY_AUTOMATED": 0,
+    "FAILED": 2
+  },
+  "acceptable": 18,
+  "targetMet": true,
+  "languageStatistics": {
+    "NO": {
+      "funds": 14,
+      "parserSuccess": 11,
+      "parserPartial": 2,
+      "parserFailure": 1
+    },
+    "EN": {
+      "funds": 5,
+      "parserSuccess": 0,
+      "parserPartial": 5,
+      "parserFailure": 0
+    },
+    "UNKNOWN": {
+      "funds": 1,
+      "parserSuccess": 0,
+      "parserPartial": 0,
+      "parserFailure": 1
+    }
+  },
+  "qualityDistribution": {
+    "HIGH": 18,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INVALID": 2,
+    "averageAcrossUniverse": 84.75,
+    "averageNormalized": 94.16666666666667
+  },
+  "coverage": {
+    "fund_name": 20,
+    "manager": 0,
+    "currency": 0,
+    "category": 20,
+    "priip_risk_score": 18,
+    "recommended_holding_period": 18,
+    "management_fee": 18,
+    "transaction_cost": 18,
+    "total_annual_cost": 1,
+    "entry_fee": 17,
+    "exit_fee": 18,
+    "performance_fee": 18,
+    "scenarios": 11,
+    "benchmark": 18,
+    "intended_investor": 7
+  },
+  "providers": [
+    {
+      "provider": "SAM PRIIP Repository",
+      "funds": 12,
+      "kidFound": 12,
+      "verified": 11,
+      "success": 11,
+      "partial": 0,
+      "failure": 1
+    },
+    {
+      "provider": "KLP / Storebrand Fund Data",
+      "funds": 1,
+      "kidFound": 1,
+      "verified": 1,
+      "success": 0,
+      "partial": 1,
+      "failure": 0
+    },
+    {
+      "provider": "DNB / Morningstar",
+      "funds": 1,
+      "kidFound": 1,
+      "verified": 1,
+      "success": 0,
+      "partial": 1,
+      "failure": 0
+    },
+    {
+      "provider": "Fidelity",
+      "funds": 3,
+      "kidFound": 3,
+      "verified": 3,
+      "success": 0,
+      "partial": 3,
+      "failure": 0
+    },
+    {
+      "provider": "JPMorgan Asset Management / Fundsquare",
+      "funds": 2,
+      "kidFound": 2,
+      "verified": 2,
+      "success": 0,
+      "partial": 2,
+      "failure": 0
+    },
+    {
+      "provider": "Kraft Finans",
+      "funds": 1,
+      "kidFound": 1,
+      "verified": 0,
+      "success": 0,
+      "partial": 0,
+      "failure": 1
+    }
+  ],
+  "databaseCounts": {
+    "funds": 20,
+    "fund_documents": 27,
+    "raw_source_snapshots": 19,
+    "fund_risk": 18,
+    "fund_costs": 18,
+    "fund_priip_scenarios": 40,
+    "fund_product_details": 18,
+    "ingestion_runs": 223,
+    "kid_parser_runs": 93
+  },
+  "funds": [
+    {
+      "name": "Kron Indeks Global",
+      "isin": "NO0011101545",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "GLOBAL_INDEX",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Storebrand Global Indeks C",
+      "isin": "NO0012882036",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "GLOBAL_INDEX",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Storebrand Indeks – Alle Markeder A",
+      "isin": "NO0010611148",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "GLOBAL_INDEX",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "KLP AksjeNorge Indeks N",
+      "isin": "NO0012445214",
+      "expectedManager": "KLP Kapitalforvaltning",
+      "testRole": "GLOBAL_INDEX",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "KLP / Storebrand Fund Data",
+      "kidLanguage": "NO",
+      "kidStructure": "Unknown",
+      "parseStatus": "PARTIAL",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 85,
+      "missingFields": [
+        "manager",
+        "currency",
+        "scenarios"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Exact normalized fund name not found in document",
+        "Secure publication/update date not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": false,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": false,
+        "benchmark": true,
+        "intended_investor": true
+      }
+    },
+    {
+      "name": "Storebrand Europe Index N",
+      "isin": "NO0013711242",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "EUROPE",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Exact normalized fund name not found in document"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Storebrand Indeks – Nye Markeder N",
+      "isin": "NO0010817919",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "EMERGING_MARKETS",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Exact normalized fund name not found in document"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "DNB Teknologi B",
+      "isin": "NO0013004622",
+      "expectedManager": "DNB Asset Management",
+      "testRole": "TECHNOLOGY",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "DNB / Morningstar",
+      "kidLanguage": "NO",
+      "kidStructure": "HTML wrapper / Morningstar PDF",
+      "parseStatus": "PARTIAL",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 85,
+      "missingFields": [
+        "manager",
+        "currency",
+        "scenarios"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": true,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": false,
+        "benchmark": true,
+        "intended_investor": true
+      }
+    },
+    {
+      "name": "Storebrand Global Multifactor N",
+      "isin": "NO0010817505",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "FACTOR",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Exact normalized fund name not found in document"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Storebrand Verdi N",
+      "isin": "NO0010817836",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "ACTIVE_EQUITY",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Storebrand Vekst B",
+      "isin": "NO0012884149",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "ACTIVE_EQUITY",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Fidelity Funds – World Fund A-Euro",
+      "isin": "LU0069449576",
+      "expectedManager": "Fidelity International",
+      "testRole": "ACTIVE_EQUITY",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "Fidelity",
+      "kidLanguage": "EN",
+      "kidStructure": "Unknown",
+      "parseStatus": "PARTIAL",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 85,
+      "missingFields": [
+        "manager",
+        "currency",
+        "scenarios"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Secure publication/update date not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": false,
+        "benchmark": true,
+        "intended_investor": true
+      }
+    },
+    {
+      "name": "Fidelity Nordic A-Acc-SEK",
+      "isin": "LU0261949381",
+      "expectedManager": "Fidelity International",
+      "testRole": "ACTIVE_EQUITY",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "Fidelity",
+      "kidLanguage": "EN",
+      "kidStructure": "Unknown",
+      "parseStatus": "PARTIAL",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 85,
+      "missingFields": [
+        "manager",
+        "currency",
+        "scenarios"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Exact normalized fund name not found in document",
+        "Secure publication/update date not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": false,
+        "benchmark": true,
+        "intended_investor": true
+      }
+    },
+    {
+      "name": "Fidelity Europe Equity ESG A-Acc-EUR",
+      "isin": "LU0251128657",
+      "expectedManager": "Fidelity International",
+      "testRole": "ESG",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "Fidelity",
+      "kidLanguage": "EN",
+      "kidStructure": "Unknown",
+      "parseStatus": "PARTIAL",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 85,
+      "missingFields": [
+        "manager",
+        "currency",
+        "scenarios"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Exact normalized fund name not found in document",
+        "Secure publication/update date not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": false,
+        "benchmark": true,
+        "intended_investor": true
+      }
+    },
+    {
+      "name": "JPM US Select Equity A (acc) USD",
+      "isin": "LU0070214290",
+      "expectedManager": "J.P. Morgan Asset Management",
+      "testRole": "ACTIVE_EQUITY",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "JPMorgan Asset Management / Fundsquare",
+      "kidLanguage": "EN",
+      "kidStructure": "Unknown",
+      "parseStatus": "PARTIAL",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 85,
+      "missingFields": [
+        "manager",
+        "currency",
+        "scenarios"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Secure publication/update date not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": false,
+        "benchmark": true,
+        "intended_investor": true
+      }
+    },
+    {
+      "name": "JPM Emerging Markets Sustainable Equity A (acc) USD",
+      "isin": "LU2051468812",
+      "expectedManager": "J.P. Morgan Asset Management",
+      "testRole": "ESG",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "JPMorgan Asset Management / Fundsquare",
+      "kidLanguage": "EN",
+      "kidStructure": "Unknown",
+      "parseStatus": "PARTIAL",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 85,
+      "missingFields": [
+        "manager",
+        "currency",
+        "scenarios"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Secure publication/update date not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": false,
+        "benchmark": true,
+        "intended_investor": true
+      }
+    },
+    {
+      "name": "Storebrand Likviditet N",
+      "isin": "NO0010818008",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "FIXED_INCOME",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "Exact normalized fund name not found in document"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Storebrand Kreditt N",
+      "isin": "NO0010818057",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "FIXED_INCOME",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Storebrand Global Kreditt IG B",
+      "isin": "NO0010588031",
+      "expectedManager": "Storebrand Asset Management",
+      "testRole": "FIXED_INCOME",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "VALID",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "NO",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SUCCESS",
+      "normalized": true,
+      "overall": "FULLY_AUTOMATED",
+      "quality": 100,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": true,
+        "recommended_holding_period": true,
+        "management_fee": true,
+        "transaction_cost": true,
+        "total_annual_cost": false,
+        "entry_fee": true,
+        "exit_fee": true,
+        "performance_fee": true,
+        "scenarios": true,
+        "benchmark": true,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "Alfred Berg Likviditet R (NOK)",
+      "isin": "NO0010089485",
+      "expectedManager": "Alfred Berg Kapitalforvaltning",
+      "testRole": "FIXED_INCOME",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "FETCH_FAILED",
+      "kidProvider": "SAM PRIIP Repository",
+      "kidLanguage": "UNKNOWN",
+      "kidStructure": "PRIIP repository PDF",
+      "parseStatus": "SKIPPED",
+      "normalized": false,
+      "overall": "FAILED",
+      "quality": 0,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found"
+      ],
+      "errors": [
+        "KID document returned HTTP 404"
+      ],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": false,
+        "recommended_holding_period": false,
+        "management_fee": false,
+        "transaction_cost": false,
+        "total_annual_cost": false,
+        "entry_fee": false,
+        "exit_fee": false,
+        "performance_fee": false,
+        "scenarios": false,
+        "benchmark": false,
+        "intended_investor": false
+      }
+    },
+    {
+      "name": "FORTE Strategisk A",
+      "isin": "NO0010963432",
+      "expectedManager": "Forte Fondsforvaltning",
+      "testRole": "ACTIVE_EQUITY",
+      "kronStatus": "PARTIAL",
+      "kronQuality": 86,
+      "kidStatus": "INVALID",
+      "kidProvider": "Kraft Finans",
+      "kidLanguage": "UNKNOWN",
+      "kidStructure": "Manager-specific PDF",
+      "parseStatus": "SKIPPED",
+      "normalized": false,
+      "overall": "FAILED",
+      "quality": 0,
+      "missingFields": [
+        "manager",
+        "currency"
+      ],
+      "warnings": [
+        "manager not found",
+        "currency not found",
+        "ISIN mismatch: found SE0025159171",
+        "Exact normalized fund name not found in document"
+      ],
+      "errors": [],
+      "fields": {
+        "fund_name": true,
+        "manager": false,
+        "currency": false,
+        "category": true,
+        "priip_risk_score": false,
+        "recommended_holding_period": false,
+        "management_fee": false,
+        "transaction_cost": false,
+        "total_annual_cost": false,
+        "entry_fee": false,
+        "exit_fee": false,
+        "performance_fee": false,
+        "scenarios": false,
+        "benchmark": false,
+        "intended_investor": false
+      }
+    }
+  ]
+}

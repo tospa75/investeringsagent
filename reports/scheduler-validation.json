@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-10-13",
+  "status": "PASS_WITH_EXTERNAL_DEPLOYMENT_BLOCKER",
+  "architecture": "Vercel Cron wake-up with Supabase-backed registry, runs, leases and events",
+  "cron": { "path": "/api/cron/maintenance", "schedule": "0 4 * * *", "auth": "Bearer CRON_SECRET", "localProductionRouteVerified": true, "cloudTriggerVerified": false },
+  "jobs": [
+    "KRON_FUND_DISCOVERY", "KID_DISCOVERY", "KID_PARSING", "EXPOSURE_INGESTION", "NAV_INGESTION",
+    "PERFORMANCE_METRICS", "PORTFOLIO_SNAPSHOT", "PORTFOLIO_MONITORING", "REBALANCE_EVALUATION", "MAINTENANCE_CLEANUP"
+  ],
+  "dependencyGraph": [
+    ["KID_DISCOVERY", "KID_PARSING"],
+    ["NAV_INGESTION", "PERFORMANCE_METRICS", "PORTFOLIO_SNAPSHOT", "PORTFOLIO_MONITORING", "REBALANCE_EVALUATION"]
+  ],
+  "simulation": { "status": "PASS", "initialDueJobs": 10, "writes": 0, "ordering": true, "failureIsolation": true },
+  "liveFlow": { "fund": "NO0011101545", "navNewPointsFirstRun": 9, "metricsNewFirstRun": 1, "snapshots": 1, "monitoringEvents": 1, "rebalancePlans": 1, "temporaryDataCleaned": true },
+  "secondRunDeltas": { "fundDocuments": 0, "exposureDatasets": 0, "navPoints": 0, "performanceMetrics": 0, "dataQualityEvents": 0, "snapshots": 0, "monitoringEvents": 0, "rebalancePlans": 0 },
+  "kidIncremental": { "status": "SKIPPED", "reason": "Document content already parsed" },
+  "reliability": { "retry": "PASS", "backoff": "PASS", "maxAttempts": "PASS", "locks": "PASS", "staleLeaseRecovery": "PASS", "circuitBreaker": "PASS", "rateLimiting": "SEQUENTIAL" },
+  "database": { "migration": "APPLIED", "tables": { "scheduled_jobs": 10, "job_runs": 19, "job_run_items": 19, "job_locks": 0, "provider_circuit_breakers": 1, "data_quality_events": 0, "portfolio_monitoring_events": 0 }, "duplicateDeterministicKeys": 0, "invalidRunRows": 0 },
+  "health": { "KRON_FUND_DISCOVERY": "DEGRADED", "KID_DISCOVERY": "HEALTHY", "KID_PARSING": "HEALTHY", "EXPOSURE_INGESTION": "HEALTHY", "NAV_INGESTION": "HEALTHY", "PERFORMANCE_METRICS": "HEALTHY", "PORTFOLIO_SNAPSHOT": "HEALTHY", "PORTFOLIO_MONITORING": "HEALTHY", "REBALANCE_EVALUATION": "HEALTHY", "MAINTENANCE_CLEANUP": "NEVER_RUN" },
+  "freshness": { "FUND_UNIVERSE": "FRESH", "KID": "FRESH", "EXPOSURE": "FRESH", "NAV": "FRESH", "METRICS": "FRESH", "PORTFOLIO_SNAPSHOT": "MISSING" },
+  "security": { "rls": "PASS", "publicLockRpcRejected": true, "unauthorizedStatus": 401, "authorizedDryRunStatus": 200, "serviceKeyInClientBundle": false },
+  "verification": { "testFiles": 33, "testsPassed": 190, "typecheck": "PASS", "productionBuild": "PASS", "productionAuditVulnerabilities": 0 },
+  "blockers": ["No deployed Vercel environment was available for a cloud-originated cron trigger"],
+  "task16Started": false
+}

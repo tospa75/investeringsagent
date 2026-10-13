@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-10-11T21:52:05.207Z",
+  "temporaryUser": true,
+  "cleanedUp": true,
+  "peakDatabaseRows": {
+    "portfolios": 1,
+    "transactions": 4,
+    "transaction_revisions": 1,
+    "portfolio_snapshots": 1,
+    "portfolio_position_snapshots": 2
+  },
+  "transactionCount": 4,
+  "firstSaveInserted": 4,
+  "secondSaveInserted": 0,
+  "snapshotFirst": 1,
+  "snapshotSecond": 0,
+  "funds": [
+    {
+      "id": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+      "isin": "NO0011101545",
+      "name": "Kron Indeks Global",
+      "active_passive": "passive"
+    },
+    {
+      "id": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+      "isin": "NO0012882036",
+      "name": "Storebrand Global Indeks C",
+      "active_passive": "passive"
+    }
+  ],
+  "state": {
+    "positions": [
+      {
+        "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+        "units": 90.6441223832,
+        "averageCost": 139.2530400001,
+        "costBasis": 12622.4695999993,
+        "realizedGainLoss": 18.3495999993,
+        "totalInvested": 14015,
+        "nav": 149.04,
+        "navDate": "2026-09-30",
+        "freshness": "FRESH",
+        "marketValue": 13509.5999999921,
+        "unrealizedGainLoss": 887.1303999929,
+        "unrealizedReturnPercent": 0.0702818409,
+        "actualWeight": 0.5746418484356514,
+        "targetWeight": 0.3,
+        "deviation": 0.2746418484
+      },
+      {
+        "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+        "units": 12.460903914,
+        "averageCost": 843.438009998,
+        "costBasis": 10510,
+        "realizedGainLoss": 0,
+        "totalInvested": 10510,
+        "nav": 802.51,
+        "navDate": "2026-09-30",
+        "freshness": "FRESH",
+        "marketValue": 10000.0000000241,
+        "unrealizedGainLoss": -509.9999999759,
+        "unrealizedReturnPercent": -0.0485252141,
+        "actualWeight": 0.42535815156434853,
+        "targetWeight": 0.3,
+        "deviation": 0.1253581516
+      }
+    ],
+    "totalInvested": 24525,
+    "marketValue": 23509.6000000162,
+    "unrealizedGainLoss": 377.1304000169,
+    "realizedGainLoss": 18.3495999993,
+    "totalReturnPercent": 0.0161255861,
+    "exposure": {
+      "regions": {
+        "DEVELOPED_ASIA": 0.08621492836968712,
+        "EUROPE": 0.15234253581515642,
+        "LATIN_AMERICA": 0.0020425358151564344,
+        "MIDDLE_EAST_AFRICA": 0.0013723925545306953,
+        "NORTH_AMERICA": 0.7579850716303128
+      },
+      "sectors": {
+        "Communication Services": 0.08645746418484357,
+        "Consumer Discretionary": 0.0814,
+        "Consumer Staples": 0.045272392554530694,
+        "Energy": 0.03939999999999999,
+        "Financials": 0.15721267907578218,
+        "Healthcare": 0.09278282233640789,
+        "Industrials": 0.09932760744546928,
+        "Materials": 0.031214928369687124,
+        "Real Estate": 0.01571492836968713,
+        "Technology": 0.32721717766359204,
+        "Utilities": 0.023899999999999998
+      },
+      "assets": {
+        "EQUITY": 0.9978701432606256,
+        "CASH": 0.0017723925545306955,
+        "OTHER": 0.00039999999999999996,
+        "BOND": 0
+      },
+      "holdings": [
+        {
+          "key": "nvidia corp",
+          "name": "NVIDIA Corp",
+          "weight": 0.05825746418484356
+        },
+        {
+          "key": "apple inc",
+          "name": "Apple Inc",
+          "weight": 0.05419999999999999
+        },
+        {
+          "key": "microsoft corp",
+          "name": "Microsoft Corp",
+          "weight": 0.040957464184843556
+        },
+        {
+          "key": "amazon.com inc",
+          "name": "Amazon.com Inc",
+          "weight": 0.027157464184843563
+        },
+        {
+          "key": "alphabet inc class a",
+          "name": "Alphabet Inc Class A",
+          "weight": 0.022199999999999998
+        },
+        {
+          "key": "alphabet inc class c",
+          "name": "Alphabet Inc Class C",
+          "weight": 0.018157464184843562
+        },
+        {
+          "key": "broadcom inc",
+          "name": "Broadcom Inc",
+          "weight": 0.017799999999999996
+        },
+        {
+          "key": "meta platforms inc class a",
+          "name": "Meta Platforms Inc Class A",
+          "weight": 0.017699999999999997
+        },
+        {
+          "key": "micron technology inc",
+          "name": "Micron Technology Inc",
+          "weight": 0.013357464184843564
+        },
+        {
+          "key": "tesla inc",
+          "name": "Tesla Inc",
+          "weight": 0.011357464184843562
+        }
+      ],
+      "managementStyle": {
+        "passive": 0.9999999999999999
+      }
+    },
+    "flags": []
+  }
+}

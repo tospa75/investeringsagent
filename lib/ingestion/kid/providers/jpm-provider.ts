@@ -1,0 +1,3 @@
+import type{KidCandidate,KidFundIdentity,KidProvider}from"../kid-types";
+const JPM_ISINS=new Set(["LU0070214290","LU2051468812"]);
+export class JpmKidProvider implements KidProvider{name="JPMorgan Asset Management / Fundsquare";canHandle(fund:KidFundIdentity){return JPM_ISINS.has(fund.isin);}async discover(fund:KidFundIdentity):Promise<KidCandidate>{const query=new URLSearchParams({cdClient:"jpmorgan",docCountry:"LU",docLang:"EN",docTypeCode:"KIDD",isin:fund.isin});return{url:`https://wl.fundsquare.net/serv/down-doc/request?${query}`,documentType:"PRIIP_KID",discoveryMethod:"PUBLIC_DISTRIBUTOR",providerName:this.name,authoritative:true};}}

@@ -1,0 +1,4868 @@
+{
+  "generatedAt": "2026-10-11T20:36:03.014Z",
+  "profiles": [
+    {
+      "profile": "conservative",
+      "profileId": "4274b031-c930-4990-a118-e37c52a38ce4",
+      "profileVersion": 1,
+      "counts": {
+        "PASS": 0,
+        "FAIL": 15,
+        "UNKNOWN": 3
+      },
+      "inserted": 0,
+      "results": [
+        {
+          "fundId": "3ce77ca5-0809-4e9e-b85d-334c56710762",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2787,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 27.9 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.020999999999999998,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2.1 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37fdf609bd66f0ebc4ddbe0c5646550968050a2ca70decbd850077296f5350ba",
+            "kid": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536",
+            "performance": "15487f108a0e93b30d8c5fb3cd28b50c4ba08017a6eaacb0b6f18f8825edb213",
+            "managementStyle": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536"
+          },
+          "fund": "Fidelity Funds - World Fund A-Euro",
+          "isin": "LU0069449576"
+        },
+        {
+          "fundId": "a72d6731-40c5-431f-8627-b34ed6f06a51",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3594,
+              "limit": 0.35,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_SECTOR_CONCENTRATION er 35.9 %, mens grensen er <= 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cf2ca2f0c9ea1ec33801d1af6072a13bcf5b9f5c1bb14df5ae1b7b92ef8f8cb9",
+            "kid": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190",
+            "performance": "55b6637b38546769c9143ef6a68785ea4b50ee2e4c3b3b7dd0a9780c6ce9dfd9",
+            "managementStyle": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190"
+          },
+          "fund": "JPM US Select Equity A (acc) USD",
+          "isin": "LU0070214290"
+        },
+        {
+          "fundId": "11f36b10-8916-45cc-a249-892ae54295fd",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2759,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 27.6 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.022,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2.2 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f83fa96cc29dc24703d5eef46e17fa4e228b8a3d665f8a6154bc549d2503ded9",
+            "kid": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540",
+            "performance": "7404a37a2ada9cf7df58f067b4e8412d8212740f61409c046d8e9968989cb669",
+            "managementStyle": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540"
+          },
+          "fund": "Fidelity Europe Equity ESG A-Acc-EUR",
+          "isin": "LU0251128657"
+        },
+        {
+          "fundId": "aeb72be2-2549-4a97-9552-584a9add5bdf",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.22870000000000001,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 22.9 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb8d0a9bdf0273b8226ad8e10132e1a65c7ad4c254757404b1739de4ca7458dd",
+            "kid": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244",
+            "performance": "0ecabb3f13caeee05f10fae11ff3eb0c625e26348a46fbf6d729c5b3757a33d0",
+            "managementStyle": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244"
+          },
+          "fund": "Fidelity Nordic A-Acc-SEK",
+          "isin": "LU0261949381"
+        },
+        {
+          "fundId": "50db8aec-24c3-4b90-bc87-8748b5b25f7f",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3944,
+              "limit": 0.35,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_SECTOR_CONCENTRATION er 39.4 %, mens grensen er <= 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0196,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "42a71369d0361afdac9e5f3361df9ed55514dd3835b9557e360fe86bc3c21924",
+            "kid": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da",
+            "performance": "a2c8dbb32b908e6c049290f171a4f92ad8760980a51b449fe85bea9ba8ecb0de",
+            "managementStyle": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da"
+          },
+          "fund": "JPM Emerging Markets Sustainable Equity A (acc) - USD",
+          "isin": "LU2051468812"
+        },
+        {
+          "fundId": "6ab20b4a-bcba-4f75-8be6-1c8b8bd0efd9",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": null,
+              "limit": 0.35,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "Sektordata mangler."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0026,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "26516b74f1438c182f1d0d6cb174fc1810ef5989912aa6c8e3d3b0af44a44d94",
+            "kid": "365233c00cc69bfc1a59ec0eed31d62772ae56a1807c8a5101d999b769e27f71",
+            "performance": "fea97ab1d6e3c8cf2b721542f5267bba5203621599f6fe26157d88d280290145",
+            "managementStyle": "23c1d6b1867352a831ac635d6c36b046c70a62f20cc47d8682f8900cffec643a"
+          },
+          "fund": "Storebrand Global Kreditt IG B",
+          "isin": "NO0010588031"
+        },
+        {
+          "fundId": "6bf12540-3ffa-4de8-987f-eac7bd10d070",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.34049999999999997,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 34 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0031,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "e53bd5b27833d961ae88efff59bffb3670ef8a5e75f46377e6b569e892b16712",
+            "kid": "b81ec601e315a05e7892d25e5558d215c492a828b8675c03a43a1ea7449e5b46",
+            "performance": "20d1f1bb090a895b96c3aba549d8cd10ea479bb78017560e1881adce050ef1b5",
+            "managementStyle": "4734d68aea5aed5b609ce8c735fadb846f3abd8a78575fc9b2f1754e96f131ab"
+          },
+          "fund": "Storebrand Indeks - Alle Markeder A",
+          "isin": "NO0010611148"
+        },
+        {
+          "fundId": "6e886e2c-cdea-4194-8a3e-751f4c1b0ce7",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3048,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 30.5 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0061,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.6 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "d7dbac85eae1d541a108ce966bfd1bfeffb3f077d6d8663356c696ac22b5343c",
+            "kid": "5882f813814521646b6bdfe11cdadd1d9a64a8c911146dab635ff0521829ff4a",
+            "performance": "b1718b76bcff17e0d17178a6a96f2b994d2970b019efa9d0029fbc2ec698a080",
+            "managementStyle": "b182158e6db09755f1be9ef1845729f4064b8087523233624438ecba1ac0f05b"
+          },
+          "fund": "Storebrand Global Multifactor N",
+          "isin": "NO0010817505"
+        },
+        {
+          "fundId": "326380f0-de50-493b-bf10-b9167052e603",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2413,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 24.1 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0103,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 1 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1ef86f1e00256dc61e455a358b31be0dcda4c3d123f21bb33485831b1c9b84d6",
+            "kid": "138b59846eb1045af819c1073e053883b3f8f23084e6cc1c003d9e5d12921056",
+            "performance": "31565a862dded87ca28feb36e54d0497178a5d0881622adeea4714120305c829",
+            "managementStyle": "e2605b3c022e57760a970027442a5572f1c83e32f182a54e75716a4e203d065c"
+          },
+          "fund": "Storebrand Verdi N",
+          "isin": "NO0010817836"
+        },
+        {
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.4401,
+              "limit": 0.35,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_SECTOR_CONCENTRATION er 44 %, mens grensen er <= 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0021,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0",
+            "kid": "b3d25d386d7f4884270def1df96b45f96f7eeb2b23c381cde2fdbbecac692721",
+            "performance": "e88fb5fce113b3ece61630d83463fb162e1e672865c4d56dde92a9596cdd3ff5",
+            "managementStyle": "b9abf17173c1c0e7039c26ee4c40ef7800e56c9aa8415016a8c33c8a586eb31d"
+          },
+          "fund": "Storebrand Indeks - Nye Markeder N",
+          "isin": "NO0010817919"
+        },
+        {
+          "fundId": "1404879a-9c62-4981-a623-6d2a59bc1cfa",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 1,
+              "limit": 2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 1 er innenfor maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 1,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": null,
+              "limit": 0.35,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "Sektordata mangler."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.001,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "c79ded2df0a9f88d09a155347daf2bfe38355ff49c6e739167c660b43c3cde22",
+            "kid": "124056b62f409fdee3ac75269bb8347e23c397b0ddbdd9c846449c634c9b8a6d",
+            "performance": "7fd283d603af2c4754df2a9e5abba0b0a1031b9cedd7280e5ae4cf7cfea6d945",
+            "managementStyle": "c9c1ff830be486e9841e3f428be22fc956b076f6698a72102710537f7753e539"
+          },
+          "fund": "Storebrand Likviditet N",
+          "isin": "NO0010818008"
+        },
+        {
+          "fundId": "e6f2bcae-c696-48f7-8f31-70fb2c2aabc1",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": null,
+              "limit": 0.35,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "Sektordata mangler."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.003,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1341a4c9840a4b7bc5adf9ad6aa2f81aa5122131f983599f4b4b2d2313519a41",
+            "kid": "a342900a5ae582cba92e94d7b2104f3cee207712517046f99c5c93a81054275d",
+            "performance": "b2f627df13fdbd7cca34a8394fa0f1d0e4e219abd325baca9d4b23235073128c",
+            "managementStyle": "02d28e046aea3487871b05e25851c8f8187931dc88e1eb21ccf16260bf098339"
+          },
+          "fund": "Storebrand Kreditt N",
+          "isin": "NO0010818057"
+        },
+        {
+          "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3276,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 32.8 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0011,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "MEDIUM",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet MEDIUM oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517",
+            "kid": "b4c42ba8e4531db6f14bf3785a6b7eb1bc1cd15decbcc53ed9edd418cea805c1",
+            "performance": "bcc42e448a59e51f63efba92d184b4dbb500a90c61a8e5f24329fa4b4e876997",
+            "managementStyle": "f283c5f614830cafe7f7f36bea54003779a80f4dcfec8114eed232dae0ed8cb1"
+          },
+          "fund": "Kron Indeks Global",
+          "isin": "NO0011101545"
+        },
+        {
+          "fundId": "3ac9a981-a23b-43cd-9b31-f478c77741ec",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.30670000000000003,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 30.7 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0015,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398",
+            "kid": "3b8edec97028deb80294a5e1e2fb1da37bd24f6deb574bc51e2c1d9174a0f7d3",
+            "performance": "41657518fa11a2908eb79a8e4625bda04706ad2b91a47c133f6fdf2cb1beff49",
+            "managementStyle": "31f8428fe29a5841a572814c9b11e8f0e035f3c62cf7e96146a8c365f9005396"
+          },
+          "fund": "KLP AksjeNorge Indeks N",
+          "isin": "NO0012445214"
+        },
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3267,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 32.7 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0009000000000000001,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768",
+            "kid": "0bc600a691eb76cb56fb4143115e4eda8024343ad330390a9b4db963433ba8e4",
+            "performance": "bd9a069c20f2e3a87e10eec0ff96bc74a94bc99937c4d44fc36f1e9d881cc4c4",
+            "managementStyle": "ed92414166c10eac1d2f0b5978ad94d73d74987c287836d5d48b6f4110a08379"
+          },
+          "fund": "Storebrand Global Indeks C",
+          "isin": "NO0012882036"
+        },
+        {
+          "fundId": "c31846f8-4583-486d-8e50-ecf8d512d2f6",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3465,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 34.6 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0104,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 1 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cb6f26502532268f5441c29a9d9e417207d35a35e488747e11d75ca0658b4e58",
+            "kid": "516d084e6fbd06fe74ebab96b62b8585b6c966ff861ca1f7ebfb07f896846c15",
+            "performance": "fd032f43b927e4220c6c366a52d293bc3f3c12960b4b9fa20fa7214b3a198964",
+            "managementStyle": "f95096fb985beb8966602e858557b71520c32ad67adc5907dc57db565b7ad35c"
+          },
+          "fund": "Storebrand Vekst B",
+          "isin": "NO0012884149"
+        },
+        {
+          "fundId": "ecd63556-3d77-4d83-9655-5c139e7500eb",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.6204999999999999,
+              "limit": 0.35,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_SECTOR_CONCENTRATION er 62 %, mens grensen er <= 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0147,
+              "limit": 0.008,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 1.5 %, mens grensen er <= 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb360f49bcf1563fdbcb0f9bacdf31e5db41ba60ad1009972df569007025c415",
+            "kid": "d643f070ab4309505a9830c36c0a6988c4c58ae579726738d13111e2e8b9e81a",
+            "performance": "5b9e0b1a572cb203848482fbe54b69bf7053a1686b40c0b8042d783a1636ab40",
+            "managementStyle": "da26550b89731c8cf85f1aafa73df51ece5bcd4eedc3014925d5270bca3b1fae"
+          },
+          "fund": "DNB Teknologi B",
+          "isin": "NO0013004622"
+        },
+        {
+          "fundId": "8a458699-8c01-4f78-be2f-71e630a3fbe7",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi PRIIP-risiko 4 overstiger maksimum 2."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2594,
+              "limit": 0.35,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 25.9 % er innenfor grensen 35 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0023,
+              "limit": 0.008,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 0.8 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "LOW",
+              "limit": "MEDIUM",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi datakvalitet LOW er under MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "40cf4a85aa7a39d883bc420f63daba23677c52e5b507473715009ecafdd1fba9",
+            "kid": "71759440739f579ba60662b210bec33585c233a2bc1d5aa3c38bb67256fc8b29",
+            "performance": "bbeb80cee08c0a2549c8006447dfed66093f8a702267dfd5279fccff401f5b5b",
+            "managementStyle": "6a4e6dfe91bfd86ad86136785f87e10ad9b906463a5c1ee34674347fe1b0d17c"
+          },
+          "fund": "Storebrand Europe Index N",
+          "isin": "NO0013711242"
+        }
+      ]
+    },
+    {
+      "profile": "balanced",
+      "profileId": "dd5d7435-35b3-433c-9234-1266502bbdbd",
+      "profileVersion": 1,
+      "counts": {
+        "PASS": 9,
+        "FAIL": 6,
+        "UNKNOWN": 3
+      },
+      "inserted": 0,
+      "results": [
+        {
+          "fundId": "3ce77ca5-0809-4e9e-b85d-334c56710762",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2787,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 27.9 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.020999999999999998,
+              "limit": 0.015,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2.1 %, mens grensen er <= 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37fdf609bd66f0ebc4ddbe0c5646550968050a2ca70decbd850077296f5350ba",
+            "kid": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536",
+            "performance": "15487f108a0e93b30d8c5fb3cd28b50c4ba08017a6eaacb0b6f18f8825edb213",
+            "managementStyle": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536"
+          },
+          "fund": "Fidelity Funds - World Fund A-Euro",
+          "isin": "LU0069449576"
+        },
+        {
+          "fundId": "a72d6731-40c5-431f-8627-b34ed6f06a51",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3594,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 35.9 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.015,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cf2ca2f0c9ea1ec33801d1af6072a13bcf5b9f5c1bb14df5ae1b7b92ef8f8cb9",
+            "kid": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190",
+            "performance": "55b6637b38546769c9143ef6a68785ea4b50ee2e4c3b3b7dd0a9780c6ce9dfd9",
+            "managementStyle": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190"
+          },
+          "fund": "JPM US Select Equity A (acc) USD",
+          "isin": "LU0070214290"
+        },
+        {
+          "fundId": "11f36b10-8916-45cc-a249-892ae54295fd",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2759,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 27.6 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.022,
+              "limit": 0.015,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2.2 %, mens grensen er <= 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f83fa96cc29dc24703d5eef46e17fa4e228b8a3d665f8a6154bc549d2503ded9",
+            "kid": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540",
+            "performance": "7404a37a2ada9cf7df58f067b4e8412d8212740f61409c046d8e9968989cb669",
+            "managementStyle": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540"
+          },
+          "fund": "Fidelity Europe Equity ESG A-Acc-EUR",
+          "isin": "LU0251128657"
+        },
+        {
+          "fundId": "aeb72be2-2549-4a97-9552-584a9add5bdf",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.22870000000000001,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 22.9 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.015,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb8d0a9bdf0273b8226ad8e10132e1a65c7ad4c254757404b1739de4ca7458dd",
+            "kid": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244",
+            "performance": "0ecabb3f13caeee05f10fae11ff3eb0c625e26348a46fbf6d729c5b3757a33d0",
+            "managementStyle": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244"
+          },
+          "fund": "Fidelity Nordic A-Acc-SEK",
+          "isin": "LU0261949381"
+        },
+        {
+          "fundId": "50db8aec-24c3-4b90-bc87-8748b5b25f7f",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3944,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 39.4 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0196,
+              "limit": 0.015,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "42a71369d0361afdac9e5f3361df9ed55514dd3835b9557e360fe86bc3c21924",
+            "kid": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da",
+            "performance": "a2c8dbb32b908e6c049290f171a4f92ad8760980a51b449fe85bea9ba8ecb0de",
+            "managementStyle": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da"
+          },
+          "fund": "JPM Emerging Markets Sustainable Equity A (acc) - USD",
+          "isin": "LU2051468812"
+        },
+        {
+          "fundId": "6ab20b4a-bcba-4f75-8be6-1c8b8bd0efd9",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": null,
+              "limit": 0.5,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "Sektordata mangler."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0026,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "26516b74f1438c182f1d0d6cb174fc1810ef5989912aa6c8e3d3b0af44a44d94",
+            "kid": "365233c00cc69bfc1a59ec0eed31d62772ae56a1807c8a5101d999b769e27f71",
+            "performance": "fea97ab1d6e3c8cf2b721542f5267bba5203621599f6fe26157d88d280290145",
+            "managementStyle": "23c1d6b1867352a831ac635d6c36b046c70a62f20cc47d8682f8900cffec643a"
+          },
+          "fund": "Storebrand Global Kreditt IG B",
+          "isin": "NO0010588031"
+        },
+        {
+          "fundId": "6bf12540-3ffa-4de8-987f-eac7bd10d070",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.34049999999999997,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 34 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0031,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "e53bd5b27833d961ae88efff59bffb3670ef8a5e75f46377e6b569e892b16712",
+            "kid": "b81ec601e315a05e7892d25e5558d215c492a828b8675c03a43a1ea7449e5b46",
+            "performance": "20d1f1bb090a895b96c3aba549d8cd10ea479bb78017560e1881adce050ef1b5",
+            "managementStyle": "4734d68aea5aed5b609ce8c735fadb846f3abd8a78575fc9b2f1754e96f131ab"
+          },
+          "fund": "Storebrand Indeks - Alle Markeder A",
+          "isin": "NO0010611148"
+        },
+        {
+          "fundId": "6e886e2c-cdea-4194-8a3e-751f4c1b0ce7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3048,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 30.5 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0061,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.6 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "d7dbac85eae1d541a108ce966bfd1bfeffb3f077d6d8663356c696ac22b5343c",
+            "kid": "5882f813814521646b6bdfe11cdadd1d9a64a8c911146dab635ff0521829ff4a",
+            "performance": "b1718b76bcff17e0d17178a6a96f2b994d2970b019efa9d0029fbc2ec698a080",
+            "managementStyle": "b182158e6db09755f1be9ef1845729f4064b8087523233624438ecba1ac0f05b"
+          },
+          "fund": "Storebrand Global Multifactor N",
+          "isin": "NO0010817505"
+        },
+        {
+          "fundId": "326380f0-de50-493b-bf10-b9167052e603",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2413,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 24.1 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0103,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 1 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1ef86f1e00256dc61e455a358b31be0dcda4c3d123f21bb33485831b1c9b84d6",
+            "kid": "138b59846eb1045af819c1073e053883b3f8f23084e6cc1c003d9e5d12921056",
+            "performance": "31565a862dded87ca28feb36e54d0497178a5d0881622adeea4714120305c829",
+            "managementStyle": "e2605b3c022e57760a970027442a5572f1c83e32f182a54e75716a4e203d065c"
+          },
+          "fund": "Storebrand Verdi N",
+          "isin": "NO0010817836"
+        },
+        {
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.4401,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 44 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0021,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0",
+            "kid": "b3d25d386d7f4884270def1df96b45f96f7eeb2b23c381cde2fdbbecac692721",
+            "performance": "e88fb5fce113b3ece61630d83463fb162e1e672865c4d56dde92a9596cdd3ff5",
+            "managementStyle": "b9abf17173c1c0e7039c26ee4c40ef7800e56c9aa8415016a8c33c8a586eb31d"
+          },
+          "fund": "Storebrand Indeks - Nye Markeder N",
+          "isin": "NO0010817919"
+        },
+        {
+          "fundId": "1404879a-9c62-4981-a623-6d2a59bc1cfa",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 1,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 1 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 1,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": null,
+              "limit": 0.5,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "Sektordata mangler."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.001,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "c79ded2df0a9f88d09a155347daf2bfe38355ff49c6e739167c660b43c3cde22",
+            "kid": "124056b62f409fdee3ac75269bb8347e23c397b0ddbdd9c846449c634c9b8a6d",
+            "performance": "7fd283d603af2c4754df2a9e5abba0b0a1031b9cedd7280e5ae4cf7cfea6d945",
+            "managementStyle": "c9c1ff830be486e9841e3f428be22fc956b076f6698a72102710537f7753e539"
+          },
+          "fund": "Storebrand Likviditet N",
+          "isin": "NO0010818008"
+        },
+        {
+          "fundId": "e6f2bcae-c696-48f7-8f31-70fb2c2aabc1",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": null,
+              "limit": 0.5,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "Sektordata mangler."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.003,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1341a4c9840a4b7bc5adf9ad6aa2f81aa5122131f983599f4b4b2d2313519a41",
+            "kid": "a342900a5ae582cba92e94d7b2104f3cee207712517046f99c5c93a81054275d",
+            "performance": "b2f627df13fdbd7cca34a8394fa0f1d0e4e219abd325baca9d4b23235073128c",
+            "managementStyle": "02d28e046aea3487871b05e25851c8f8187931dc88e1eb21ccf16260bf098339"
+          },
+          "fund": "Storebrand Kreditt N",
+          "isin": "NO0010818057"
+        },
+        {
+          "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3276,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 32.8 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0011,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517",
+            "kid": "b4c42ba8e4531db6f14bf3785a6b7eb1bc1cd15decbcc53ed9edd418cea805c1",
+            "performance": "bcc42e448a59e51f63efba92d184b4dbb500a90c61a8e5f24329fa4b4e876997",
+            "managementStyle": "f283c5f614830cafe7f7f36bea54003779a80f4dcfec8114eed232dae0ed8cb1"
+          },
+          "fund": "Kron Indeks Global",
+          "isin": "NO0011101545"
+        },
+        {
+          "fundId": "3ac9a981-a23b-43cd-9b31-f478c77741ec",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.30670000000000003,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 30.7 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0015,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398",
+            "kid": "3b8edec97028deb80294a5e1e2fb1da37bd24f6deb574bc51e2c1d9174a0f7d3",
+            "performance": "41657518fa11a2908eb79a8e4625bda04706ad2b91a47c133f6fdf2cb1beff49",
+            "managementStyle": "31f8428fe29a5841a572814c9b11e8f0e035f3c62cf7e96146a8c365f9005396"
+          },
+          "fund": "KLP AksjeNorge Indeks N",
+          "isin": "NO0012445214"
+        },
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3267,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 32.7 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0009000000000000001,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768",
+            "kid": "0bc600a691eb76cb56fb4143115e4eda8024343ad330390a9b4db963433ba8e4",
+            "performance": "bd9a069c20f2e3a87e10eec0ff96bc74a94bc99937c4d44fc36f1e9d881cc4c4",
+            "managementStyle": "ed92414166c10eac1d2f0b5978ad94d73d74987c287836d5d48b6f4110a08379"
+          },
+          "fund": "Storebrand Global Indeks C",
+          "isin": "NO0012882036"
+        },
+        {
+          "fundId": "c31846f8-4583-486d-8e50-ecf8d512d2f6",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.3465,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 34.6 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0104,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 1 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cb6f26502532268f5441c29a9d9e417207d35a35e488747e11d75ca0658b4e58",
+            "kid": "516d084e6fbd06fe74ebab96b62b8585b6c966ff861ca1f7ebfb07f896846c15",
+            "performance": "fd032f43b927e4220c6c366a52d293bc3f3c12960b4b9fa20fa7214b3a198964",
+            "managementStyle": "f95096fb985beb8966602e858557b71520c32ad67adc5907dc57db565b7ad35c"
+          },
+          "fund": "Storebrand Vekst B",
+          "isin": "NO0012884149"
+        },
+        {
+          "fundId": "ecd63556-3d77-4d83-9655-5c139e7500eb",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.6204999999999999,
+              "limit": 0.5,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_SECTOR_CONCENTRATION er 62 %, mens grensen er <= 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0147,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 1.5 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb360f49bcf1563fdbcb0f9bacdf31e5db41ba60ad1009972df569007025c415",
+            "kid": "d643f070ab4309505a9830c36c0a6988c4c58ae579726738d13111e2e8b9e81a",
+            "performance": "5b9e0b1a572cb203848482fbe54b69bf7053a1686b40c0b8042d783a1636ab40",
+            "managementStyle": "da26550b89731c8cf85f1aafa73df51ece5bcd4eedc3014925d5270bca3b1fae"
+          },
+          "fund": "DNB Teknologi B",
+          "isin": "NO0013004622"
+        },
+        {
+          "fundId": "8a458699-8c01-4f78-be2f-71e630a3fbe7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_SECTOR_CONCENTRATION",
+              "dimension": null,
+              "actual": 0.2594,
+              "limit": 0.5,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_SECTOR_CONCENTRATION: 25.9 % er innenfor grensen 50 %."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0023,
+              "limit": 0.015,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 1.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "40cf4a85aa7a39d883bc420f63daba23677c52e5b507473715009ecafdd1fba9",
+            "kid": "71759440739f579ba60662b210bec33585c233a2bc1d5aa3c38bb67256fc8b29",
+            "performance": "bbeb80cee08c0a2549c8006447dfed66093f8a702267dfd5279fccff401f5b5b",
+            "managementStyle": "6a4e6dfe91bfd86ad86136785f87e10ad9b906463a5c1ee34674347fe1b0d17c"
+          },
+          "fund": "Storebrand Europe Index N",
+          "isin": "NO0013711242"
+        }
+      ]
+    },
+    {
+      "profile": "aggressive",
+      "profileId": "3d9d9030-4afc-49c3-ae07-1078996b4896",
+      "profileVersion": 1,
+      "counts": {
+        "PASS": 18,
+        "FAIL": 0,
+        "UNKNOWN": 0
+      },
+      "inserted": 0,
+      "results": [
+        {
+          "fundId": "3ce77ca5-0809-4e9e-b85d-334c56710762",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.020999999999999998,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 2.1 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37fdf609bd66f0ebc4ddbe0c5646550968050a2ca70decbd850077296f5350ba",
+            "kid": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536",
+            "performance": "15487f108a0e93b30d8c5fb3cd28b50c4ba08017a6eaacb0b6f18f8825edb213",
+            "managementStyle": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536"
+          },
+          "fund": "Fidelity Funds - World Fund A-Euro",
+          "isin": "LU0069449576"
+        },
+        {
+          "fundId": "a72d6731-40c5-431f-8627-b34ed6f06a51",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 2 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cf2ca2f0c9ea1ec33801d1af6072a13bcf5b9f5c1bb14df5ae1b7b92ef8f8cb9",
+            "kid": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190",
+            "performance": "55b6637b38546769c9143ef6a68785ea4b50ee2e4c3b3b7dd0a9780c6ce9dfd9",
+            "managementStyle": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190"
+          },
+          "fund": "JPM US Select Equity A (acc) USD",
+          "isin": "LU0070214290"
+        },
+        {
+          "fundId": "11f36b10-8916-45cc-a249-892ae54295fd",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.022,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 2.2 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f83fa96cc29dc24703d5eef46e17fa4e228b8a3d665f8a6154bc549d2503ded9",
+            "kid": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540",
+            "performance": "7404a37a2ada9cf7df58f067b4e8412d8212740f61409c046d8e9968989cb669",
+            "managementStyle": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540"
+          },
+          "fund": "Fidelity Europe Equity ESG A-Acc-EUR",
+          "isin": "LU0251128657"
+        },
+        {
+          "fundId": "aeb72be2-2549-4a97-9552-584a9add5bdf",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 2 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb8d0a9bdf0273b8226ad8e10132e1a65c7ad4c254757404b1739de4ca7458dd",
+            "kid": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244",
+            "performance": "0ecabb3f13caeee05f10fae11ff3eb0c625e26348a46fbf6d729c5b3757a33d0",
+            "managementStyle": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244"
+          },
+          "fund": "Fidelity Nordic A-Acc-SEK",
+          "isin": "LU0261949381"
+        },
+        {
+          "fundId": "50db8aec-24c3-4b90-bc87-8748b5b25f7f",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0196,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 2 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "42a71369d0361afdac9e5f3361df9ed55514dd3835b9557e360fe86bc3c21924",
+            "kid": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da",
+            "performance": "a2c8dbb32b908e6c049290f171a4f92ad8760980a51b449fe85bea9ba8ecb0de",
+            "managementStyle": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da"
+          },
+          "fund": "JPM Emerging Markets Sustainable Equity A (acc) - USD",
+          "isin": "LU2051468812"
+        },
+        {
+          "fundId": "6ab20b4a-bcba-4f75-8be6-1c8b8bd0efd9",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0026,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "26516b74f1438c182f1d0d6cb174fc1810ef5989912aa6c8e3d3b0af44a44d94",
+            "kid": "365233c00cc69bfc1a59ec0eed31d62772ae56a1807c8a5101d999b769e27f71",
+            "performance": "fea97ab1d6e3c8cf2b721542f5267bba5203621599f6fe26157d88d280290145",
+            "managementStyle": "23c1d6b1867352a831ac635d6c36b046c70a62f20cc47d8682f8900cffec643a"
+          },
+          "fund": "Storebrand Global Kreditt IG B",
+          "isin": "NO0010588031"
+        },
+        {
+          "fundId": "6bf12540-3ffa-4de8-987f-eac7bd10d070",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0031,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "e53bd5b27833d961ae88efff59bffb3670ef8a5e75f46377e6b569e892b16712",
+            "kid": "b81ec601e315a05e7892d25e5558d215c492a828b8675c03a43a1ea7449e5b46",
+            "performance": "20d1f1bb090a895b96c3aba549d8cd10ea479bb78017560e1881adce050ef1b5",
+            "managementStyle": "4734d68aea5aed5b609ce8c735fadb846f3abd8a78575fc9b2f1754e96f131ab"
+          },
+          "fund": "Storebrand Indeks - Alle Markeder A",
+          "isin": "NO0010611148"
+        },
+        {
+          "fundId": "6e886e2c-cdea-4194-8a3e-751f4c1b0ce7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0061,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.6 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "d7dbac85eae1d541a108ce966bfd1bfeffb3f077d6d8663356c696ac22b5343c",
+            "kid": "5882f813814521646b6bdfe11cdadd1d9a64a8c911146dab635ff0521829ff4a",
+            "performance": "b1718b76bcff17e0d17178a6a96f2b994d2970b019efa9d0029fbc2ec698a080",
+            "managementStyle": "b182158e6db09755f1be9ef1845729f4064b8087523233624438ecba1ac0f05b"
+          },
+          "fund": "Storebrand Global Multifactor N",
+          "isin": "NO0010817505"
+        },
+        {
+          "fundId": "326380f0-de50-493b-bf10-b9167052e603",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0103,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 1 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1ef86f1e00256dc61e455a358b31be0dcda4c3d123f21bb33485831b1c9b84d6",
+            "kid": "138b59846eb1045af819c1073e053883b3f8f23084e6cc1c003d9e5d12921056",
+            "performance": "31565a862dded87ca28feb36e54d0497178a5d0881622adeea4714120305c829",
+            "managementStyle": "e2605b3c022e57760a970027442a5572f1c83e32f182a54e75716a4e203d065c"
+          },
+          "fund": "Storebrand Verdi N",
+          "isin": "NO0010817836"
+        },
+        {
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0021,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0",
+            "kid": "b3d25d386d7f4884270def1df96b45f96f7eeb2b23c381cde2fdbbecac692721",
+            "performance": "e88fb5fce113b3ece61630d83463fb162e1e672865c4d56dde92a9596cdd3ff5",
+            "managementStyle": "b9abf17173c1c0e7039c26ee4c40ef7800e56c9aa8415016a8c33c8a586eb31d"
+          },
+          "fund": "Storebrand Indeks - Nye Markeder N",
+          "isin": "NO0010817919"
+        },
+        {
+          "fundId": "1404879a-9c62-4981-a623-6d2a59bc1cfa",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 1,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 1 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 1,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.001,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "c79ded2df0a9f88d09a155347daf2bfe38355ff49c6e739167c660b43c3cde22",
+            "kid": "124056b62f409fdee3ac75269bb8347e23c397b0ddbdd9c846449c634c9b8a6d",
+            "performance": "7fd283d603af2c4754df2a9e5abba0b0a1031b9cedd7280e5ae4cf7cfea6d945",
+            "managementStyle": "c9c1ff830be486e9841e3f428be22fc956b076f6698a72102710537f7753e539"
+          },
+          "fund": "Storebrand Likviditet N",
+          "isin": "NO0010818008"
+        },
+        {
+          "fundId": "e6f2bcae-c696-48f7-8f31-70fb2c2aabc1",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.003,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1341a4c9840a4b7bc5adf9ad6aa2f81aa5122131f983599f4b4b2d2313519a41",
+            "kid": "a342900a5ae582cba92e94d7b2104f3cee207712517046f99c5c93a81054275d",
+            "performance": "b2f627df13fdbd7cca34a8394fa0f1d0e4e219abd325baca9d4b23235073128c",
+            "managementStyle": "02d28e046aea3487871b05e25851c8f8187931dc88e1eb21ccf16260bf098339"
+          },
+          "fund": "Storebrand Kreditt N",
+          "isin": "NO0010818057"
+        },
+        {
+          "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0011,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517",
+            "kid": "b4c42ba8e4531db6f14bf3785a6b7eb1bc1cd15decbcc53ed9edd418cea805c1",
+            "performance": "bcc42e448a59e51f63efba92d184b4dbb500a90c61a8e5f24329fa4b4e876997",
+            "managementStyle": "f283c5f614830cafe7f7f36bea54003779a80f4dcfec8114eed232dae0ed8cb1"
+          },
+          "fund": "Kron Indeks Global",
+          "isin": "NO0011101545"
+        },
+        {
+          "fundId": "3ac9a981-a23b-43cd-9b31-f478c77741ec",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0015,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398",
+            "kid": "3b8edec97028deb80294a5e1e2fb1da37bd24f6deb574bc51e2c1d9174a0f7d3",
+            "performance": "41657518fa11a2908eb79a8e4625bda04706ad2b91a47c133f6fdf2cb1beff49",
+            "managementStyle": "31f8428fe29a5841a572814c9b11e8f0e035f3c62cf7e96146a8c365f9005396"
+          },
+          "fund": "KLP AksjeNorge Indeks N",
+          "isin": "NO0012445214"
+        },
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0009000000000000001,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768",
+            "kid": "0bc600a691eb76cb56fb4143115e4eda8024343ad330390a9b4db963433ba8e4",
+            "performance": "bd9a069c20f2e3a87e10eec0ff96bc74a94bc99937c4d44fc36f1e9d881cc4c4",
+            "managementStyle": "ed92414166c10eac1d2f0b5978ad94d73d74987c287836d5d48b6f4110a08379"
+          },
+          "fund": "Storebrand Global Indeks C",
+          "isin": "NO0012882036"
+        },
+        {
+          "fundId": "c31846f8-4583-486d-8e50-ecf8d512d2f6",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0104,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 1 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cb6f26502532268f5441c29a9d9e417207d35a35e488747e11d75ca0658b4e58",
+            "kid": "516d084e6fbd06fe74ebab96b62b8585b6c966ff861ca1f7ebfb07f896846c15",
+            "performance": "fd032f43b927e4220c6c366a52d293bc3f3c12960b4b9fa20fa7214b3a198964",
+            "managementStyle": "f95096fb985beb8966602e858557b71520c32ad67adc5907dc57db565b7ad35c"
+          },
+          "fund": "Storebrand Vekst B",
+          "isin": "NO0012884149"
+        },
+        {
+          "fundId": "ecd63556-3d77-4d83-9655-5c139e7500eb",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0147,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 1.5 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb360f49bcf1563fdbcb0f9bacdf31e5db41ba60ad1009972df569007025c415",
+            "kid": "d643f070ab4309505a9830c36c0a6988c4c58ae579726738d13111e2e8b9e81a",
+            "performance": "5b9e0b1a572cb203848482fbe54b69bf7053a1686b40c0b8042d783a1636ab40",
+            "managementStyle": "da26550b89731c8cf85f1aafa73df51ece5bcd4eedc3014925d5270bca3b1fae"
+          },
+          "fund": "DNB Teknologi B",
+          "isin": "NO0013004622"
+        },
+        {
+          "fundId": "8a458699-8c01-4f78-be2f-71e630a3fbe7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 6,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 6."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 10,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0023,
+              "limit": 0.025,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 2.5 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "40cf4a85aa7a39d883bc420f63daba23677c52e5b507473715009ecafdd1fba9",
+            "kid": "71759440739f579ba60662b210bec33585c233a2bc1d5aa3c38bb67256fc8b29",
+            "performance": "bbeb80cee08c0a2549c8006447dfed66093f8a702267dfd5279fccff401f5b5b",
+            "managementStyle": "6a4e6dfe91bfd86ad86136785f87e10ad9b906463a5c1ee34674347fe1b0d17c"
+          },
+          "fund": "Storebrand Europe Index N",
+          "isin": "NO0013711242"
+        }
+      ]
+    },
+    {
+      "profile": "europe-asia-tilt",
+      "profileId": "5dfebfa8-5e41-42d2-ae8e-d67ccb2c9144",
+      "profileVersion": 1,
+      "counts": {
+        "PASS": 6,
+        "FAIL": 9,
+        "UNKNOWN": 3
+      },
+      "inserted": 0,
+      "results": [
+        {
+          "fundId": "3ce77ca5-0809-4e9e-b85d-334c56710762",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.6725,
+              "limit": 0.45,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi USA er 67.3 %, mens grensen er <= 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.21489999999999998,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 21.5 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37fdf609bd66f0ebc4ddbe0c5646550968050a2ca70decbd850077296f5350ba",
+            "kid": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536",
+            "performance": "15487f108a0e93b30d8c5fb3cd28b50c4ba08017a6eaacb0b6f18f8825edb213",
+            "managementStyle": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536"
+          },
+          "fund": "Fidelity Funds - World Fund A-Euro",
+          "isin": "LU0069449576"
+        },
+        {
+          "fundId": "a72d6731-40c5-431f-8627-b34ed6f06a51",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.9854,
+              "limit": 0.45,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi USA er 98.5 %, mens grensen er <= 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.0074,
+              "limit": 0.2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi EUROPE er 0.7 %, mens grensen er >= 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cf2ca2f0c9ea1ec33801d1af6072a13bcf5b9f5c1bb14df5ae1b7b92ef8f8cb9",
+            "kid": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190",
+            "performance": "55b6637b38546769c9143ef6a68785ea4b50ee2e4c3b3b7dd0a9780c6ce9dfd9",
+            "managementStyle": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190"
+          },
+          "fund": "JPM US Select Equity A (acc) USD",
+          "isin": "LU0070214290"
+        },
+        {
+          "fundId": "11f36b10-8916-45cc-a249-892ae54295fd",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.0152,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 1.5 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.9704,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 97 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f83fa96cc29dc24703d5eef46e17fa4e228b8a3d665f8a6154bc549d2503ded9",
+            "kid": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540",
+            "performance": "7404a37a2ada9cf7df58f067b4e8412d8212740f61409c046d8e9968989cb669",
+            "managementStyle": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540"
+          },
+          "fund": "Fidelity Europe Equity ESG A-Acc-EUR",
+          "isin": "LU0251128657"
+        },
+        {
+          "fundId": "aeb72be2-2549-4a97-9552-584a9add5bdf",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.0216,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 2.2 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.9641,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 96.4 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb8d0a9bdf0273b8226ad8e10132e1a65c7ad4c254757404b1739de4ca7458dd",
+            "kid": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244",
+            "performance": "0ecabb3f13caeee05f10fae11ff3eb0c625e26348a46fbf6d729c5b3757a33d0",
+            "managementStyle": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244"
+          },
+          "fund": "Fidelity Nordic A-Acc-SEK",
+          "isin": "LU0261949381"
+        },
+        {
+          "fundId": "50db8aec-24c3-4b90-bc87-8748b5b25f7f",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 0 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.0332,
+              "limit": 0.2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi EUROPE er 3.3 %, mens grensen er >= 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "42a71369d0361afdac9e5f3361df9ed55514dd3835b9557e360fe86bc3c21924",
+            "kid": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da",
+            "performance": "a2c8dbb32b908e6c049290f171a4f92ad8760980a51b449fe85bea9ba8ecb0de",
+            "managementStyle": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da"
+          },
+          "fund": "JPM Emerging Markets Sustainable Equity A (acc) - USD",
+          "isin": "LU2051468812"
+        },
+        {
+          "fundId": "6ab20b4a-bcba-4f75-8be6-1c8b8bd0efd9",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": null,
+              "limit": 0.45,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "countrydata mangler."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": null,
+              "limit": 0.2,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "regiondata mangler."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "26516b74f1438c182f1d0d6cb174fc1810ef5989912aa6c8e3d3b0af44a44d94",
+            "kid": "365233c00cc69bfc1a59ec0eed31d62772ae56a1807c8a5101d999b769e27f71",
+            "performance": "fea97ab1d6e3c8cf2b721542f5267bba5203621599f6fe26157d88d280290145",
+            "managementStyle": "23c1d6b1867352a831ac635d6c36b046c70a62f20cc47d8682f8900cffec643a"
+          },
+          "fund": "Storebrand Global Kreditt IG B",
+          "isin": "NO0010588031"
+        },
+        {
+          "fundId": "6bf12540-3ffa-4de8-987f-eac7bd10d070",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.6401,
+              "limit": 0.45,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi USA er 64 %, mens grensen er <= 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.1369,
+              "limit": 0.2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi EUROPE er 13.7 %, mens grensen er >= 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "e53bd5b27833d961ae88efff59bffb3670ef8a5e75f46377e6b569e892b16712",
+            "kid": "b81ec601e315a05e7892d25e5558d215c492a828b8675c03a43a1ea7449e5b46",
+            "performance": "20d1f1bb090a895b96c3aba549d8cd10ea479bb78017560e1881adce050ef1b5",
+            "managementStyle": "4734d68aea5aed5b609ce8c735fadb846f3abd8a78575fc9b2f1754e96f131ab"
+          },
+          "fund": "Storebrand Indeks - Alle Markeder A",
+          "isin": "NO0010611148"
+        },
+        {
+          "fundId": "6e886e2c-cdea-4194-8a3e-751f4c1b0ce7",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.6706,
+              "limit": 0.45,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi USA er 67.1 %, mens grensen er <= 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.1509,
+              "limit": 0.2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi EUROPE er 15.1 %, mens grensen er >= 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "d7dbac85eae1d541a108ce966bfd1bfeffb3f077d6d8663356c696ac22b5343c",
+            "kid": "5882f813814521646b6bdfe11cdadd1d9a64a8c911146dab635ff0521829ff4a",
+            "performance": "b1718b76bcff17e0d17178a6a96f2b994d2970b019efa9d0029fbc2ec698a080",
+            "managementStyle": "b182158e6db09755f1be9ef1845729f4064b8087523233624438ecba1ac0f05b"
+          },
+          "fund": "Storebrand Global Multifactor N",
+          "isin": "NO0010817505"
+        },
+        {
+          "fundId": "326380f0-de50-493b-bf10-b9167052e603",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.0315,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 3.1 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.9227,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 92.3 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1ef86f1e00256dc61e455a358b31be0dcda4c3d123f21bb33485831b1c9b84d6",
+            "kid": "138b59846eb1045af819c1073e053883b3f8f23084e6cc1c003d9e5d12921056",
+            "performance": "31565a862dded87ca28feb36e54d0497178a5d0881622adeea4714120305c829",
+            "managementStyle": "e2605b3c022e57760a970027442a5572f1c83e32f182a54e75716a4e203d065c"
+          },
+          "fund": "Storebrand Verdi N",
+          "isin": "NO0010817836"
+        },
+        {
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.0075,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 0.8 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.0245,
+              "limit": 0.2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi EUROPE er 2.5 %, mens grensen er >= 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0",
+            "kid": "b3d25d386d7f4884270def1df96b45f96f7eeb2b23c381cde2fdbbecac692721",
+            "performance": "e88fb5fce113b3ece61630d83463fb162e1e672865c4d56dde92a9596cdd3ff5",
+            "managementStyle": "b9abf17173c1c0e7039c26ee4c40ef7800e56c9aa8415016a8c33c8a586eb31d"
+          },
+          "fund": "Storebrand Indeks - Nye Markeder N",
+          "isin": "NO0010817919"
+        },
+        {
+          "fundId": "1404879a-9c62-4981-a623-6d2a59bc1cfa",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 1,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 1 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 1,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": null,
+              "limit": 0.45,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "countrydata mangler."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": null,
+              "limit": 0.2,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "regiondata mangler."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "c79ded2df0a9f88d09a155347daf2bfe38355ff49c6e739167c660b43c3cde22",
+            "kid": "124056b62f409fdee3ac75269bb8347e23c397b0ddbdd9c846449c634c9b8a6d",
+            "performance": "7fd283d603af2c4754df2a9e5abba0b0a1031b9cedd7280e5ae4cf7cfea6d945",
+            "managementStyle": "c9c1ff830be486e9841e3f428be22fc956b076f6698a72102710537f7753e539"
+          },
+          "fund": "Storebrand Likviditet N",
+          "isin": "NO0010818008"
+        },
+        {
+          "fundId": "e6f2bcae-c696-48f7-8f31-70fb2c2aabc1",
+          "overallStatus": "UNKNOWN",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": null,
+              "limit": 0.45,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "countrydata mangler."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": null,
+              "limit": 0.2,
+              "status": "UNKNOWN",
+              "critical": true,
+              "explanation": "regiondata mangler."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1341a4c9840a4b7bc5adf9ad6aa2f81aa5122131f983599f4b4b2d2313519a41",
+            "kid": "a342900a5ae582cba92e94d7b2104f3cee207712517046f99c5c93a81054275d",
+            "performance": "b2f627df13fdbd7cca34a8394fa0f1d0e4e219abd325baca9d4b23235073128c",
+            "managementStyle": "02d28e046aea3487871b05e25851c8f8187931dc88e1eb21ccf16260bf098339"
+          },
+          "fund": "Storebrand Kreditt N",
+          "isin": "NO0010818057"
+        },
+        {
+          "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.7243,
+              "limit": 0.45,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi USA er 72.4 %, mens grensen er <= 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.1523,
+              "limit": 0.2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi EUROPE er 15.2 %, mens grensen er >= 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517",
+            "kid": "b4c42ba8e4531db6f14bf3785a6b7eb1bc1cd15decbcc53ed9edd418cea805c1",
+            "performance": "bcc42e448a59e51f63efba92d184b4dbb500a90c61a8e5f24329fa4b4e876997",
+            "managementStyle": "f283c5f614830cafe7f7f36bea54003779a80f4dcfec8114eed232dae0ed8cb1"
+          },
+          "fund": "Kron Indeks Global",
+          "isin": "NO0011101545"
+        },
+        {
+          "fundId": "3ac9a981-a23b-43cd-9b31-f478c77741ec",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.0092,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 0.9 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.9681000000000001,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 96.8 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398",
+            "kid": "3b8edec97028deb80294a5e1e2fb1da37bd24f6deb574bc51e2c1d9174a0f7d3",
+            "performance": "41657518fa11a2908eb79a8e4625bda04706ad2b91a47c133f6fdf2cb1beff49",
+            "managementStyle": "31f8428fe29a5841a572814c9b11e8f0e035f3c62cf7e96146a8c365f9005396"
+          },
+          "fund": "KLP AksjeNorge Indeks N",
+          "isin": "NO0012445214"
+        },
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.7242000000000001,
+              "limit": 0.45,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi USA er 72.4 %, mens grensen er <= 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.1524,
+              "limit": 0.2,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi EUROPE er 15.2 %, mens grensen er >= 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768",
+            "kid": "0bc600a691eb76cb56fb4143115e4eda8024343ad330390a9b4db963433ba8e4",
+            "performance": "bd9a069c20f2e3a87e10eec0ff96bc74a94bc99937c4d44fc36f1e9d881cc4c4",
+            "managementStyle": "ed92414166c10eac1d2f0b5978ad94d73d74987c287836d5d48b6f4110a08379"
+          },
+          "fund": "Storebrand Global Indeks C",
+          "isin": "NO0012882036"
+        },
+        {
+          "fundId": "c31846f8-4583-486d-8e50-ecf8d512d2f6",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.013999999999999999,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 1.4 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.986,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 98.6 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cb6f26502532268f5441c29a9d9e417207d35a35e488747e11d75ca0658b4e58",
+            "kid": "516d084e6fbd06fe74ebab96b62b8585b6c966ff861ca1f7ebfb07f896846c15",
+            "performance": "fd032f43b927e4220c6c366a52d293bc3f3c12960b4b9fa20fa7214b3a198964",
+            "managementStyle": "f95096fb985beb8966602e858557b71520c32ad67adc5907dc57db565b7ad35c"
+          },
+          "fund": "Storebrand Vekst B",
+          "isin": "NO0012884149"
+        },
+        {
+          "fundId": "ecd63556-3d77-4d83-9655-5c139e7500eb",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.6843,
+              "limit": 0.45,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi USA er 68.4 %, mens grensen er <= 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.21600000000000003,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 21.6 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb360f49bcf1563fdbcb0f9bacdf31e5db41ba60ad1009972df569007025c415",
+            "kid": "d643f070ab4309505a9830c36c0a6988c4c58ae579726738d13111e2e8b9e81a",
+            "performance": "5b9e0b1a572cb203848482fbe54b69bf7053a1686b40c0b8042d783a1636ab40",
+            "managementStyle": "da26550b89731c8cf85f1aafa73df51ece5bcd4eedc3014925d5270bca3b1fae"
+          },
+          "fund": "DNB Teknologi B",
+          "isin": "NO0013004622"
+        },
+        {
+          "fundId": "8a458699-8c01-4f78-be2f-71e630a3fbe7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MAX_COUNTRY_WEIGHT",
+              "dimension": "USA",
+              "actual": 0.0225,
+              "limit": 0.45,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_COUNTRY_WEIGHT: 2.3 % er innenfor grensen 45 %."
+            },
+            {
+              "rule": "MIN_REGION_WEIGHT",
+              "dimension": "EUROPE",
+              "actual": 0.968,
+              "limit": 0.2,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MIN_REGION_WEIGHT: 96.8 % er innenfor grensen 20 %."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "40cf4a85aa7a39d883bc420f63daba23677c52e5b507473715009ecafdd1fba9",
+            "kid": "71759440739f579ba60662b210bec33585c233a2bc1d5aa3c38bb67256fc8b29",
+            "performance": "bbeb80cee08c0a2549c8006447dfed66093f8a702267dfd5279fccff401f5b5b",
+            "managementStyle": "6a4e6dfe91bfd86ad86136785f87e10ad9b906463a5c1ee34674347fe1b0d17c"
+          },
+          "fund": "Storebrand Europe Index N",
+          "isin": "NO0013711242"
+        }
+      ]
+    },
+    {
+      "profile": "low-cost-passive",
+      "profileId": "dfff6c5c-1032-4bce-8cd9-7059ee9c90bb",
+      "profileVersion": 1,
+      "counts": {
+        "PASS": 5,
+        "FAIL": 13,
+        "UNKNOWN": 0
+      },
+      "inserted": 0,
+      "results": [
+        {
+          "fundId": "3ce77ca5-0809-4e9e-b85d-334c56710762",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.020999999999999998,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2.1 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37fdf609bd66f0ebc4ddbe0c5646550968050a2ca70decbd850077296f5350ba",
+            "kid": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536",
+            "performance": "15487f108a0e93b30d8c5fb3cd28b50c4ba08017a6eaacb0b6f18f8825edb213",
+            "managementStyle": "3baa22afb18edec027a043801ef84a04db39d8967d8848cd6ed1ed5a41f37536"
+          },
+          "fund": "Fidelity Funds - World Fund A-Euro",
+          "isin": "LU0069449576"
+        },
+        {
+          "fundId": "a72d6731-40c5-431f-8627-b34ed6f06a51",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cf2ca2f0c9ea1ec33801d1af6072a13bcf5b9f5c1bb14df5ae1b7b92ef8f8cb9",
+            "kid": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190",
+            "performance": "55b6637b38546769c9143ef6a68785ea4b50ee2e4c3b3b7dd0a9780c6ce9dfd9",
+            "managementStyle": "d9cd100374800d603d1c6d26d83e18e2e569a205a048d31f90e572d2a7d75190"
+          },
+          "fund": "JPM US Select Equity A (acc) USD",
+          "isin": "LU0070214290"
+        },
+        {
+          "fundId": "11f36b10-8916-45cc-a249-892ae54295fd",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.022,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2.2 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f83fa96cc29dc24703d5eef46e17fa4e228b8a3d665f8a6154bc549d2503ded9",
+            "kid": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540",
+            "performance": "7404a37a2ada9cf7df58f067b4e8412d8212740f61409c046d8e9968989cb669",
+            "managementStyle": "e551112f6c422f84e33f02db766a9374bc68cce106e83dfbe8f0714103a76540"
+          },
+          "fund": "Fidelity Europe Equity ESG A-Acc-EUR",
+          "isin": "LU0251128657"
+        },
+        {
+          "fundId": "aeb72be2-2549-4a97-9552-584a9add5bdf",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.02,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb8d0a9bdf0273b8226ad8e10132e1a65c7ad4c254757404b1739de4ca7458dd",
+            "kid": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244",
+            "performance": "0ecabb3f13caeee05f10fae11ff3eb0c625e26348a46fbf6d729c5b3757a33d0",
+            "managementStyle": "5543e714a4963c386c1de1f1277f9989f509b6fda75e24e757011f88f409b244"
+          },
+          "fund": "Fidelity Nordic A-Acc-SEK",
+          "isin": "LU0261949381"
+        },
+        {
+          "fundId": "50db8aec-24c3-4b90-bc87-8748b5b25f7f",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0196,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 2 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "42a71369d0361afdac9e5f3361df9ed55514dd3835b9557e360fe86bc3c21924",
+            "kid": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da",
+            "performance": "a2c8dbb32b908e6c049290f171a4f92ad8760980a51b449fe85bea9ba8ecb0de",
+            "managementStyle": "3b1df3e563c1d2a1564d80ad4ea0b60a597c0218244c57d111ee9a88009b40da"
+          },
+          "fund": "JPM Emerging Markets Sustainable Equity A (acc) - USD",
+          "isin": "LU2051468812"
+        },
+        {
+          "fundId": "6ab20b4a-bcba-4f75-8be6-1c8b8bd0efd9",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0026,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "26516b74f1438c182f1d0d6cb174fc1810ef5989912aa6c8e3d3b0af44a44d94",
+            "kid": "365233c00cc69bfc1a59ec0eed31d62772ae56a1807c8a5101d999b769e27f71",
+            "performance": "fea97ab1d6e3c8cf2b721542f5267bba5203621599f6fe26157d88d280290145",
+            "managementStyle": "23c1d6b1867352a831ac635d6c36b046c70a62f20cc47d8682f8900cffec643a"
+          },
+          "fund": "Storebrand Global Kreditt IG B",
+          "isin": "NO0010588031"
+        },
+        {
+          "fundId": "6bf12540-3ffa-4de8-987f-eac7bd10d070",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "passive",
+              "limit": "passive",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Fondet er passive."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0031,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "e53bd5b27833d961ae88efff59bffb3670ef8a5e75f46377e6b569e892b16712",
+            "kid": "b81ec601e315a05e7892d25e5558d215c492a828b8675c03a43a1ea7449e5b46",
+            "performance": "20d1f1bb090a895b96c3aba549d8cd10ea479bb78017560e1881adce050ef1b5",
+            "managementStyle": "4734d68aea5aed5b609ce8c735fadb846f3abd8a78575fc9b2f1754e96f131ab"
+          },
+          "fund": "Storebrand Indeks - Alle Markeder A",
+          "isin": "NO0010611148"
+        },
+        {
+          "fundId": "6e886e2c-cdea-4194-8a3e-751f4c1b0ce7",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0061,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 0.6 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "d7dbac85eae1d541a108ce966bfd1bfeffb3f077d6d8663356c696ac22b5343c",
+            "kid": "5882f813814521646b6bdfe11cdadd1d9a64a8c911146dab635ff0521829ff4a",
+            "performance": "b1718b76bcff17e0d17178a6a96f2b994d2970b019efa9d0029fbc2ec698a080",
+            "managementStyle": "b182158e6db09755f1be9ef1845729f4064b8087523233624438ecba1ac0f05b"
+          },
+          "fund": "Storebrand Global Multifactor N",
+          "isin": "NO0010817505"
+        },
+        {
+          "fundId": "326380f0-de50-493b-bf10-b9167052e603",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0103,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 1 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1ef86f1e00256dc61e455a358b31be0dcda4c3d123f21bb33485831b1c9b84d6",
+            "kid": "138b59846eb1045af819c1073e053883b3f8f23084e6cc1c003d9e5d12921056",
+            "performance": "31565a862dded87ca28feb36e54d0497178a5d0881622adeea4714120305c829",
+            "managementStyle": "e2605b3c022e57760a970027442a5572f1c83e32f182a54e75716a4e203d065c"
+          },
+          "fund": "Storebrand Verdi N",
+          "isin": "NO0010817836"
+        },
+        {
+          "fundId": "0654a629-08bb-4560-9966-1a229ab49de7",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "passive",
+              "limit": "passive",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Fondet er passive."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0021,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "3a86a64a3aae5f6922d7317ae9927aace41772e419f12d58f9fe6ad20e70c0f0",
+            "kid": "b3d25d386d7f4884270def1df96b45f96f7eeb2b23c381cde2fdbbecac692721",
+            "performance": "e88fb5fce113b3ece61630d83463fb162e1e672865c4d56dde92a9596cdd3ff5",
+            "managementStyle": "b9abf17173c1c0e7039c26ee4c40ef7800e56c9aa8415016a8c33c8a586eb31d"
+          },
+          "fund": "Storebrand Indeks - Nye Markeder N",
+          "isin": "NO0010817919"
+        },
+        {
+          "fundId": "1404879a-9c62-4981-a623-6d2a59bc1cfa",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 1,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 1 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 1,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.001,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "c79ded2df0a9f88d09a155347daf2bfe38355ff49c6e739167c660b43c3cde22",
+            "kid": "124056b62f409fdee3ac75269bb8347e23c397b0ddbdd9c846449c634c9b8a6d",
+            "performance": "7fd283d603af2c4754df2a9e5abba0b0a1031b9cedd7280e5ae4cf7cfea6d945",
+            "managementStyle": "c9c1ff830be486e9841e3f428be22fc956b076f6698a72102710537f7753e539"
+          },
+          "fund": "Storebrand Likviditet N",
+          "isin": "NO0010818008"
+        },
+        {
+          "fundId": "e6f2bcae-c696-48f7-8f31-70fb2c2aabc1",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 2,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 2 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 3,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.003,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.3 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "1341a4c9840a4b7bc5adf9ad6aa2f81aa5122131f983599f4b4b2d2313519a41",
+            "kid": "a342900a5ae582cba92e94d7b2104f3cee207712517046f99c5c93a81054275d",
+            "performance": "b2f627df13fdbd7cca34a8394fa0f1d0e4e219abd325baca9d4b23235073128c",
+            "managementStyle": "02d28e046aea3487871b05e25851c8f8187931dc88e1eb21ccf16260bf098339"
+          },
+          "fund": "Storebrand Kreditt N",
+          "isin": "NO0010818057"
+        },
+        {
+          "fundId": "5a0f1e98-3bff-40bf-b98f-bfa3afeef5a2",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "passive",
+              "limit": "passive",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Fondet er passive."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0011,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "MEDIUM",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet MEDIUM oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fa9638c0e11f26c142186b36fd099a78cc133a1bba336f73d41e8c3f81336517",
+            "kid": "b4c42ba8e4531db6f14bf3785a6b7eb1bc1cd15decbcc53ed9edd418cea805c1",
+            "performance": "bcc42e448a59e51f63efba92d184b4dbb500a90c61a8e5f24329fa4b4e876997",
+            "managementStyle": "f283c5f614830cafe7f7f36bea54003779a80f4dcfec8114eed232dae0ed8cb1"
+          },
+          "fund": "Kron Indeks Global",
+          "isin": "NO0011101545"
+        },
+        {
+          "fundId": "3ac9a981-a23b-43cd-9b31-f478c77741ec",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "passive",
+              "limit": "passive",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Fondet er passive."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0015,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "f4d5fa04f4cdcea7583dca9dabbe1bf2f94782bc4e06ed194e6aa61b41ce7398",
+            "kid": "3b8edec97028deb80294a5e1e2fb1da37bd24f6deb574bc51e2c1d9174a0f7d3",
+            "performance": "41657518fa11a2908eb79a8e4625bda04706ad2b91a47c133f6fdf2cb1beff49",
+            "managementStyle": "31f8428fe29a5841a572814c9b11e8f0e035f3c62cf7e96146a8c365f9005396"
+          },
+          "fund": "KLP AksjeNorge Indeks N",
+          "isin": "NO0012445214"
+        },
+        {
+          "fundId": "0cfb4338-849b-48a5-9fcb-be4752082bb5",
+          "overallStatus": "PASS",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "passive",
+              "limit": "passive",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Fondet er passive."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0009000000000000001,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.1 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "37a021707cfbfedc8d2233284046a7c5105fb06c9fff036499fbd65f3d2a6768",
+            "kid": "0bc600a691eb76cb56fb4143115e4eda8024343ad330390a9b4db963433ba8e4",
+            "performance": "bd9a069c20f2e3a87e10eec0ff96bc74a94bc99937c4d44fc36f1e9d881cc4c4",
+            "managementStyle": "ed92414166c10eac1d2f0b5978ad94d73d74987c287836d5d48b6f4110a08379"
+          },
+          "fund": "Storebrand Global Indeks C",
+          "isin": "NO0012882036"
+        },
+        {
+          "fundId": "c31846f8-4583-486d-8e50-ecf8d512d2f6",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0104,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 1 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "cb6f26502532268f5441c29a9d9e417207d35a35e488747e11d75ca0658b4e58",
+            "kid": "516d084e6fbd06fe74ebab96b62b8585b6c966ff861ca1f7ebfb07f896846c15",
+            "performance": "fd032f43b927e4220c6c366a52d293bc3f3c12960b4b9fa20fa7214b3a198964",
+            "managementStyle": "f95096fb985beb8966602e858557b71520c32ad67adc5907dc57db565b7ad35c"
+          },
+          "fund": "Storebrand Vekst B",
+          "isin": "NO0012884149"
+        },
+        {
+          "fundId": "ecd63556-3d77-4d83-9655-5c139e7500eb",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "active",
+              "limit": "passive",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi bare passive forvaltning er tillatt."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0147,
+              "limit": 0.006,
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi MAX_TOTAL_COST er 1.5 %, mens grensen er <= 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "HIGH",
+              "limit": "MEDIUM",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Datakvalitet HIGH oppfyller minimum MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "fb360f49bcf1563fdbcb0f9bacdf31e5db41ba60ad1009972df569007025c415",
+            "kid": "d643f070ab4309505a9830c36c0a6988c4c58ae579726738d13111e2e8b9e81a",
+            "performance": "5b9e0b1a572cb203848482fbe54b69bf7053a1686b40c0b8042d783a1636ab40",
+            "managementStyle": "da26550b89731c8cf85f1aafa73df51ece5bcd4eedc3014925d5270bca3b1fae"
+          },
+          "fund": "DNB Teknologi B",
+          "isin": "NO0013004622"
+        },
+        {
+          "fundId": "8a458699-8c01-4f78-be2f-71e630a3fbe7",
+          "overallStatus": "FAIL",
+          "reasons": [
+            {
+              "rule": "MAX_PRIIP_RISK",
+              "dimension": null,
+              "actual": 4,
+              "limit": 4,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Risiko 4 er innenfor maksimum 4."
+            },
+            {
+              "rule": "HORIZON",
+              "dimension": null,
+              "actual": 5,
+              "limit": 7,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Anbefalt investeringsperiode er innenfor horisonten."
+            },
+            {
+              "rule": "MANAGEMENT_STYLE",
+              "dimension": null,
+              "actual": "passive",
+              "limit": "passive",
+              "status": "PASS",
+              "critical": true,
+              "explanation": "Fondet er passive."
+            },
+            {
+              "rule": "MAX_TOTAL_COST",
+              "dimension": null,
+              "actual": 0.0023,
+              "limit": 0.006,
+              "status": "PASS",
+              "critical": true,
+              "explanation": "MAX_TOTAL_COST: 0.2 % er innenfor grensen 0.6 %."
+            },
+            {
+              "rule": "MIN_DATA_QUALITY",
+              "dimension": null,
+              "actual": "LOW",
+              "limit": "MEDIUM",
+              "status": "FAIL",
+              "critical": true,
+              "explanation": "Ekskludert fordi datakvalitet LOW er under MEDIUM."
+            }
+          ],
+          "profileVersion": 1,
+          "dataVersion": {
+            "exposure": "40cf4a85aa7a39d883bc420f63daba23677c52e5b507473715009ecafdd1fba9",
+            "kid": "71759440739f579ba60662b210bec33585c233a2bc1d5aa3c38bb67256fc8b29",
+            "performance": "bbeb80cee08c0a2549c8006447dfed66093f8a702267dfd5279fccff401f5b5b",
+            "managementStyle": "6a4e6dfe91bfd86ad86136785f87e10ad9b906463a5c1ee34674347fe1b0d17c"
+          },
+          "fund": "Storebrand Europe Index N",
+          "isin": "NO0013711242"
+        }
+      ]
+    }
+  ],
+  "commonFailReasons": [
+    [
+      "MAX_TOTAL_COST",
+      22
+    ],
+    [
+      "MAX_PRIIP_RISK",
+      15
+    ],
+    [
+      "MANAGEMENT_STYLE",
+      12
+    ],
+    [
+      "MAX_COUNTRY_WEIGHT",
+      7
+    ],
+    [
+      "MIN_REGION_WEIGHT",
+      7
+    ],
+    [
+      "MAX_SECTOR_CONCENTRATION",
+      5
+    ],
+    [
+      "MIN_DATA_QUALITY",
+      2
+    ]
+  ],
+  "commonUnknownReasons": [
+    [
+      "MAX_SECTOR_CONCENTRATION",
+      6
+    ],
+    [
+      "MAX_COUNTRY_WEIGHT",
+      3
+    ],
+    [
+      "MIN_REGION_WEIGHT",
+      3
+    ]
+  ],
+  "alwaysPass": [],
+  "alwaysFail": []
+}

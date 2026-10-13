@@ -1,0 +1,1 @@
+export function parseHoldingPeriod(text:string):number|null{const match=text.match(/(?:Anbefalt\s+investeringsperiode|Recommended\s+holding\s+period)\s*:?\s*(\d+(?:[.,]\d+)?)\s*(?:år|years?)/i);return match?Number(match[1].replace(",",".")):null;}

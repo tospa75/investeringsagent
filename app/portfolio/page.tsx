@@ -1,0 +1,11 @@
+import Link from "next/link";
+import { EmptyState, MetricCard, StatusBadge, money, percent } from "@/components/ui";
+import { loadDashboard, loadProposal } from "@/lib/ui/loaders";
+export const dynamic = "force-dynamic";
+export default async function Portfolio(){
+ const [data,proposal]=await Promise.all([loadDashboard(),loadProposal()]);
+ if(!data?.portfolio)return <div className="page"><EmptyState title="Ingen portefølje" text="Opprett en portefølje for å begynne." href="/portfolio/new" action="Opprett portefølje"/></div>;
+ if(!data.snapshot)return <div className="page"><header className="page-header"><h1>{data.portfolio.name}</h1><Link className="button primary" href="/transactions">Registrer kjøp</Link></header><EmptyState title="Ingen beholdning" text="Porteføljen har ingen beregnede posisjoner ennå."/></div>;
+ const targets=new Map<string,number>((proposal?.funds??[]).map((x:any)=>[x.fund_id,+x.target_weight] as [string,number]));
+ return <div className="page"><header className="page-header"><div><p className="eyebrow">{data.portfolio.name}</p><h1>Faktisk mot mål</h1></div><Link className="button secondary" href="/transactions">Transaksjoner</Link></header><section className="metrics-grid three"><MetricCard label="Markedsverdi" value={money(+data.snapshot.market_value)}/><MetricCard label="Posisjoner" value={String(data.positions.length)}/><MetricCard label="Dataversjon" value={new Date(data.snapshot.snapshot_date).toLocaleDateString("nb-NO")}/></section><section className="card"><div className="section-heading"><h2>Fondsvekter</h2><StatusBadge tone="info">Databaseverdier</StatusBadge></div><div className="weight-list">{data.positions.map((p:any)=>{const target=targets.get(p.fund_id)??null,actual=+p.actual_weight;return <div className="weight-item" key={p.id}><div><strong>{p.funds?.name??"Fond"}</strong><span>{percent(actual)} faktisk · {target===null?"uten mål":`${percent(target)} mål`}</span></div><div className="dual-bar"><span className="target" style={{width:`${(target??0)*100}%`}}/><span className="actual" style={{width:`${actual*100}%`}}/></div><strong>{target===null?"–":`${((actual-target)*100).toFixed(2)} pp`}</strong></div>})}</div></section></div>;
+}

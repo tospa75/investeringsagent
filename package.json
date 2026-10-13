@@ -1,0 +1,59 @@
+{
+  "name": "investeringsagent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "bash scripts/seed.sh",
+    "ingest:kron": "node --env-file-if-exists=.env.local --import tsx scripts/ingest-kron.ts",
+    "ingest:kid": "node --env-file-if-exists=.env.local --import tsx scripts/ingest-kid.ts",
+    "parse:kid": "node --env-file-if-exists=.env.local --import tsx scripts/parse-kid.ts",
+    "ingest:exposure": "node --env-file-if-exists=.env.local --import tsx scripts/ingest-exposure.ts",
+    "ingest:nav": "node --env-file-if-exists=.env.local --import tsx scripts/ingest-nav.ts",
+    "calculate:metrics": "node --env-file-if-exists=.env.local --import tsx scripts/calculate-metrics.ts",
+    "filter:funds": "node --env-file-if-exists=.env.local --import tsx scripts/filter-funds.ts",
+    "validate:filters": "node --env-file-if-exists=.env.local --import tsx scripts/finalize-filter-report.ts",
+    "enrich:management-style": "node --env-file-if-exists=.env.local --import tsx scripts/enrich-management-style.ts",
+    "score:funds": "node --env-file-if-exists=.env.local --import tsx scripts/score-funds.ts",
+    "build:portfolio": "node --env-file-if-exists=.env.local --import tsx scripts/build-portfolio.ts",
+    "validate:tracking": "node --env-file-if-exists=.env.local --import tsx scripts/validate-portfolio-tracking.ts",
+    "monitor:portfolio": "node --env-file-if-exists=.env.local --import tsx scripts/rebalance-portfolio.ts",
+    "rebalance:portfolio": "node --env-file-if-exists=.env.local --import tsx scripts/rebalance-portfolio.ts",
+    "validate:rebalancing": "node --env-file-if-exists=.env.local --import tsx scripts/validate-rebalancing.ts",
+    "validate:rebalancing:live": "node --env-file-if-exists=.env.local --import tsx scripts/validate-rebalancing-live.ts",
+    "validate:ui:rls": "node --env-file-if-exists=.env.local --import tsx scripts/validate-ui-rls.ts",
+    "validate:ui:integration": "node --env-file-if-exists=.env.local --import tsx scripts/validate-ui-integration.ts",
+    "validate:workflow:e2e": "node --env-file-if-exists=.env.local --import tsx scripts/validate-workflow-e2e.ts",
+    "validate:mvp1": "node --env-file-if-exists=.env.local --import tsx scripts/validate-mvp1.ts",
+    "jobs:run": "node --env-file-if-exists=.env.local --import tsx scripts/run-job.ts",
+    "validate:scheduler": "node --env-file-if-exists=.env.local --import tsx scripts/validate-scheduler-live.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "node --env-file-if-exists=.env.local node_modules/@playwright/test/cli.js test"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.117.3",
+    "cheerio": "1.1.2",
+    "next": "16.4.0",
+    "pdfjs-dist": "5.4.149",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "24.10.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "5.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-12",
+  "status": "PARTIAL",
+  "runtimeFixtures": false,
+  "persistence": {
+    "profileVersioning": true,
+    "profileIdempotence": true,
+    "transactionIdempotence": true,
+    "portfolioIdempotence": true,
+    "transactionSnapshotRefresh": true
+  },
+  "security": {
+    "authenticatedRoutes": true,
+    "crossUserProfileWriteBlocked": true,
+    "crossUserPortfolioWriteBlocked": true,
+    "crossUserTransactionWriteBlocked": true,
+    "crossUserMonitoringWriteBlocked": true,
+    "serviceRoleInClientBundle": false
+  },
+  "validation": {
+    "tests": { "passed": 166, "total": 166 },
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "dependencyAuditVulnerabilities": 0,
+    "liveSupabaseIntegration": "PASS",
+    "nativeSafariLoginPage": "PASS",
+    "playwrightChromium": "BLOCKED_BY_OS_SANDBOX",
+    "playwrightWebKit": "BLOCKED_BY_OS_SANDBOX"
+  },
+  "remainingGaps": [
+    "Profile save does not synchronously orchestrate Task 09-11 batch jobs",
+    "Profile wizard does not prefill saved values",
+    "Full browser-driven E2E could not launch in the macOS execution sandbox",
+    "No deployment target or credentials are configured"
+  ]
+}
