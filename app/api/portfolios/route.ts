@@ -19,15 +19,26 @@ export async function POST(request: Request) {
         .order("portfolio_score", { ascending: false }).limit(1).maybeSingle();
       proposalId = proposal?.id ?? null;
     }
-    const { data, error } = await db.from("portfolios").upsert({
+    const values = {
       user_id: user.id,
       client_portfolio_id: key,
       name: body.name.trim(),
       base_currency: body.baseCurrency ?? "NOK",
       portfolio_proposal_id: proposalId,
-    }, { onConflict: "user_id,client_portfolio_id", ignoreDuplicates: true }).select("id");
-    if (error) throw error;
-    return NextResponse.json({ id: data?.[0]?.id ?? null, inserted: (data?.length ?? 0) > 0 }, { status: 201 });
+    };
+    const { data, error } = await db.from("portfolios").insert(values).select("id").single();
+    if (!error) return NextResponse.json({ id: data.id, inserted: true }, { status: 201 });
+
+    // The idempotency index is partial (client_portfolio_id IS NOT NULL), so
+    // PostgREST cannot target it with ON CONFLICT. Resolve a duplicate by
+    // returning the row created by the original request instead.
+    if (error.code === "23505") {
+      const { data: existing, error: lookupError } = await db.from("portfolios").select("id")
+        .eq("user_id", user.id).eq("client_portfolio_id", key).maybeSingle();
+      if (lookupError || !existing) throw lookupError ?? error;
+      return NextResponse.json({ id: existing.id, inserted: false }, { status: 200 });
+    }
+    throw error;
   } catch {
     return NextResponse.json({ error: "Porteføljen kunne ikke opprettes" }, { status: 400 });
   }
