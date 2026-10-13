@@ -1,12 +1,64 @@
 {
   "generatedAt": "2026-10-13",
-  "status": "BLOCKED_EXTERNAL_CREDENTIALS",
-  "git": { "initialized": true, "branch": "main", "baselineCommit": "03b10aa", "remote": null, "secretsCommitted": false },
-  "deployment": { "platform": "Vercel", "previewUrl": null, "productionUrl": null, "httpsVerified": false, "reason": "No Vercel credentials/project link or Git remote available" },
-  "localReleaseGate": { "testFiles": 33, "testsPassed": 190, "typecheck": "PASS", "productionBuild": "PASS", "dependencyVulnerabilities": 0, "health": "PASS", "manifest": "PASS", "serviceWorkerSafety": "PASS", "clientSecretAudit": "PASS" },
-  "browserMatrix": { "chromium": "BLOCKED_LOCAL_MACOS_SANDBOX", "webkitIphone13": "BLOCKED_LOCAL_MACOS_SANDBOX" },
-  "pwa": { "manifest": true, "icon192": true, "icon512": true, "standalone": true, "httpsInstallability": "PENDING_DEPLOYMENT" },
-  "cloudPending": ["HTTPS", "Supabase Auth URLs", "cloud login/persistence", "Chromium E2E", "WebKit mobile E2E", "cloud RLS", "deployed bundle audit", "real Vercel Cron", "scheduler cloud chain", "rollback test"],
-  "requiredUserAction": "Create/configure a Git remote and Vercel login/project access, or run npx vercel login and identify the account/project.",
+  "status": "PARTIAL_EXTERNAL_VALIDATION",
+  "deployment": {
+    "platform": "Vercel Hobby",
+    "productionUrl": "https://investeringsagent.vercel.app",
+    "previewUrl": null,
+    "https": "PASS",
+    "health": "PASS",
+    "databaseReachable": true,
+    "commitSha": "7a7a3b22d4d48d745c0919fedf52c7652531d6b7"
+  },
+  "e2e": {
+    "loginLogout": "PASS",
+    "profileWorkflow": "PASS",
+    "filterScoreProposal": "PASS",
+    "portfolioCreation": "PASS",
+    "twoBuyTransactions": "PASS",
+    "latestSnapshotValue": 25000,
+    "monitoringPage": "PASS",
+    "persistenceAfterRelogin": "PASS",
+    "profileEditCloud": "NOT_RUN",
+    "testDataCleanup": "PASS"
+  },
+  "browserMatrix": {
+    "chromiumCompatibleCloudBrowser": "PASS",
+    "mobile390x844": "PASS_NO_HORIZONTAL_OVERFLOW",
+    "playwrightChromiumCli": "BLOCKED_LOCAL_MACOS_SANDBOX",
+    "webkitIphone": "NOT_RUN_CLOUD"
+  },
+  "pwa": {
+    "manifest": "PASS",
+    "icons": "PASS",
+    "serviceWorker": "PASS",
+    "cacheSafety": "PASS",
+    "nativeInstallAction": "NOT_RUN"
+  },
+  "security": {
+    "rlsTwoUserIsolation": "PASS",
+    "unauthorizedCron": "PASS_401",
+    "deployedClientSecretAudit": "PASS",
+    "securityHeaders": "PASS",
+    "temporaryCredentialsRemoved": true
+  },
+  "cron": {
+    "route": "/api/cron/maintenance",
+    "schedule": "daily 04:00 UTC",
+    "authorizedCloudTrigger": "PENDING",
+    "scheduledJobRunsFound": 0,
+    "cloudMaintenanceChain": "PENDING"
+  },
+  "releaseGate": {
+    "testFiles": 33,
+    "testsPassed": 190,
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "productionDependencyVulnerabilities": 0
+  },
+  "knownBlockers": [
+    "No authorized Vercel Cron invocation has reached the database yet",
+    "WebKit production E2E requires an external WebKit-capable runner"
+  ],
   "task17Started": false
 }

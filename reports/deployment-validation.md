@@ -4,98 +4,90 @@ Generated: 2026-10-13
 
 ## Status
 
-`BLOCKED_EXTERNAL_CREDENTIALS`
+`PARTIAL_EXTERNAL_VALIDATION`
 
-The application is release-ready locally, but it has not been deployed. No Git remote, Vercel project link, Vercel token, or usable Vercel CLI login is available. Per Task 16, deployment stops at this external access step; this is not an application defect.
+The application is deployed and the principal production workflow is verified. Task 16 cannot yet be closed because no real Vercel Cron invocation has reached the database and a cloud WebKit run has not been executed.
 
-## Git and build identity
+## Deployment
 
-- Local repository: initialized on `main`
-- Baseline commit: `03b10aa`
-- Remote: not configured
-- `.env.local`, `.next`, `node_modules`, Playwright output, logs, and local work files: ignored
-- Secret-content scan outside `.env.local`: clean
-- Vercel build identifier: will use `VERCEL_GIT_COMMIT_SHA`
-- Local fallback version: `0.1.0-local`
+- Production URL: https://investeringsagent.vercel.app
+- Platform: Vercel Hobby, Next.js preset, repository root
+- GitHub: `tospa75/investeringsagent`, branch `main`
+- Deployed commit: `7a7a3b22d4d48d745c0919fedf52c7652531d6b7`
+- HTTPS: PASS
+- `/api/health`: HTTP 200, database reachable, commit SHA and request ID present
+- Production security headers: PASS (HSTS, `nosniff`, frame denial, referrer policy and permissions policy)
+- Separate preview deployment/database: not configured; production is validated directly with isolated temporary users
 
-## Deployment target
+## Production E2E
 
-- Platform: Vercel, Next.js preset
-- Root: repository root
-- Install: `npm install`
-- Build: `npm run build`
-- Production URL: pending
-- Preview URL: pending
-- HTTPS: pending deployment
-- Custom domain: optional, not required
+- Supabase login/logout: PASS
+- Session and data persistence after logout/login: PASS
+- Profile save and automatic workflow: PASS
+- Filter, score and portfolio proposal: PASS; workflow reached `COMPLETED`
+- Proposal visibility and target weights: PASS
+- Portfolio creation: PASS after fixing partial-index idempotency handling in commit `8fb4302`
+- Two BUY transactions: PASS (NOK 10,000 and NOK 15,000)
+- Snapshot and dashboard: PASS; NOK 25,000 shown after fixing latest intraday snapshot selection in commit `7a7a3b2`
+- Monitoring page: PASS; no trade was executed
+- Profile edit/version regeneration: not repeated in cloud during this closeout
+- All temporary production users and dependent test data: deleted
 
-## Environment readiness
+## Browser and mobile matrix
 
-Required in Preview and Production:
+| Target | Status | Detail |
+|---|---|---|
+| Chromium-compatible cloud browser | PASS | Login, profile workflow, proposal, portfolio, two transactions, persistence and monitoring verified against production |
+| Mobile viewport 390×844 | PASS | No horizontal overflow; mobile navigation and forms rendered |
+| Playwright Chromium CLI | BLOCKED_LOCAL_SANDBOX | Local macOS Mach-port sandbox prevents browser launch before navigation |
+| WebKit / iPhone | NOT_RUN_CLOUD | Local WebKit is blocked by the same sandbox and no external CI browser runner is configured |
 
-- `NEXT_PUBLIC_SUPABASE_URL`
-- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
-- `SUPABASE_SECRET_KEY`
-- `CRON_SECRET`
-- `JOBS_ADMIN_SECRET`
-- `RISK_FREE_RATE_ANNUAL`
-- `MINIMUM_ACCEPTABLE_RETURN_ANNUAL`
+## PWA
 
-Secret values were not logged or committed. Preview may temporarily share the current Supabase project only for isolated test users with cleanup; a separate preview database is recommended before broader team testing.
+- Manifest over HTTPS: PASS
+- `start_url=/`, `scope=/`, standalone display and theme/background metadata: PASS
+- 192×192 and 512×512 icons: PASS
+- Service worker served over HTTPS: PASS
+- Cache safety: PASS; only static manifest/icon assets are cached, not navigation, API, Supabase auth tokens or private portfolio payloads
+- Native install prompt/install action: not manually exercised
 
-## Local release gate
+## Security
 
-- Unit/integration tests: 33 files, 190 tests passed
+- Two-user production RLS isolation: PASS for profiles, portfolios and transactions, including cross-user reads/writes
+- Unauthenticated cron request: HTTP 401, PASS
+- Deployed client bundle scan: no `SUPABASE_SECRET_KEY`, `CRON_SECRET`, `JOBS_ADMIN_SECRET` or `service_role` references
+- `.env.local`, test credentials, build output and reports containing secrets: excluded from Git as appropriate
+- No test credentials remain active
+
+## Scheduler and cron
+
+- Local/live scheduler chain previously passed for `NAV_INGESTION → PERFORMANCE_METRICS → PORTFOLIO_SNAPSHOT → PORTFOLIO_MONITORING`, plus rebalancing
+- Vercel cron route: configured at `/api/cron/maintenance`, daily at 04:00 UTC
+- Authorized real Vercel Cron invocation: **PENDING**
+- Database check: 0 `job_runs` with `triggered_by = SCHEDULE`
+- Therefore cloud-originated scheduler chain and secret-free Vercel logs remain pending
+
+## Release gate
+
+- Tests: 33 files, 190 tests passed
 - TypeScript: PASS
 - Production build: PASS
 - Production dependency audit: 0 vulnerabilities
-- Health route: PASS (`status=ok`, database reachable, version and request ID present)
-- Manifest: PASS (`start_url=/`, `scope=/`, standalone, five icons)
-- PNG icons: valid 192×192 and 512×512
-- Service worker safety: PASS; only manifest/icons are cached, navigation and API/auth/private payloads are not cached
-- Client/static secret scan: no server secret values or variable references in `.next/static`
+- Git/client secret audit: PASS
+- Documentation: `docs/deployment.md` updated
 
-## Browser matrix
+## Operations
 
-| Browser | Status | Detail |
-|---|---|---|
-| Chromium | BLOCKED_LOCAL_SANDBOX | Browser downloaded; macOS Mach-port sandbox denied browser launch |
-| WebKit / iPhone 13 | BLOCKED_LOCAL_SANDBOX | Browser downloaded; process aborted in the restricted local sandbox |
+- Vercel Hobby and Supabase Free are adequate for the current validation-sized workload; function duration and cron frequency must be monitored as ingestion volume grows.
+- Preview currently shares no separate isolated Supabase project. A separate preview project is recommended before team testing.
+- Vercel deployment rollback is documented. Database migrations are forward-only and require reviewed compensating migrations.
+- Supabase backup/export readiness is documented; no automatic external backup was added.
 
-Both failures occurred before a page opened. The existing E2E suite creates and removes dedicated users and covers login, profile creation/edit, filtering/scoring/proposal, portfolio creation, transaction, logout/login persistence, and mobile horizontal-overflow checking. It must be run against the Vercel Preview URL.
+## Remaining closeout actions
 
-## PWA and mobile
-
-Manifest, icons, standalone metadata, service-worker scope, and safe caching are ready. HTTPS installability, safe-area/keyboard interaction, bottom navigation, and actual iPhone/WebKit behavior remain pending the Preview deployment/browser run.
-
-## Cloud validations pending
-
-These require the deployment URL and cannot be truthfully reported as complete:
-
-- HTTPS origin and security headers on Vercel
-- Supabase Site URL and exact Redirect URLs
-- login/logout/session persistence from cloud origin
-- full profile/portfolio/monitoring E2E in Chromium and WebKit
-- two-user cloud RLS test
-- deployed-bundle secret audit
-- real cloud-originated cron request and scheduler chain
-- Vercel rollback/promotion test
-
-## Security and operations readiness
-
-- `/api/health` exposes only status, database reachability, build identifier, and request ID; it is non-cacheable.
-- Cron/admin routes require constant-time bearer-secret verification.
-- Global Vercel headers configure HSTS, `nosniff`, frame denial, strict-origin referrer policy, and a restrictive permissions policy.
-- Database migrations are forward-only; rollback uses a reviewed compensating migration rather than destructive automatic reversal.
-- Backup/export readiness and free-tier limits must be confirmed against the actual Supabase/Vercel account plan before real production data is stored.
-
-## Exact external step required
-
-The user must provide repository/deployment access by either:
-
-1. creating a private GitHub/GitLab repository, adding it as `origin`, and signing Vercel into that provider; or
-2. running `npx vercel login` locally and confirming the Vercel account/project to use.
-
-After access exists, rerun Task 16 to configure environment variables without exposing their values, deploy Preview, update exact Supabase Auth URLs, execute browser/cloud cron/RLS validation, promote to Production, clean test data, and finalize this report.
+1. Trigger `/api/cron/maintenance` from Vercel with its configured Cron authorization (or allow the scheduled 04:00 UTC run).
+2. Confirm a completed `SCHEDULE` job run and representative cloud maintenance chain without secrets in logs.
+3. Run the production E2E suite in a WebKit-capable external runner (and preferably Chromium Playwright there as well).
+4. Optionally exercise the native PWA install prompt and a dedicated preview deployment.
 
 Task 17 has not been started.
